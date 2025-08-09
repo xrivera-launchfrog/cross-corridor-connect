@@ -35,6 +35,7 @@ All colors MUST be HSL. */
     --border: 207 18% 90%;           /* Steel */
     --input: 207 18% 90%;
     --ring: 210 66% 14%;             /* Focus on light */
+    --nav-bg: 0 0% 100%;            /* Header/nav background (white) */
 
     --radius: 0.6rem;
 
@@ -77,6 +78,7 @@ All colors MUST be HSL. */
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
+    --nav-bg: 0 0% 100%;            /* Header/nav background (white) */
 
     /* Brand additions (dark) */
     --brand: 199 80% 60%;

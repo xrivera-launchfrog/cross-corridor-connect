@@ -12,11 +12,11 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/70 border-b">
+    <header className="sticky top-0 z-50 bg-[hsl(var(--nav-bg))] border-b">
       <nav className="container mx-auto flex items-center justify-between py-4">
         <Link to="/" className="flex items-center gap-2" aria-label="Trans Guatemala Pipeline Home">
           <img
-            src="/lovable-uploads/72acfcf9-734c-48d2-986f-aea0e7084530.png"
+            src="/lovable-uploads/29a8a823-d66c-4171-aa2b-d748ae2bf5f8.png"
             alt="Trans Guatemala Pipeline (TGP) logo"
             className="h-8 w-auto object-contain"
             decoding="async"
