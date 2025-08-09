@@ -55,18 +55,17 @@ const Index = () => {
 
       <section className="container mx-auto py-16 md:py-24">
         <h2 className="sr-only">Key Stats</h2>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 divide-y sm:divide-y-0 sm:divide-x divide-border">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-border">
           {[
-            ["Length", "≈320 km"],
-            ["Pipeline Diameter", "42 inches × 3"],
-            ["Throughput Capacity", "Up to 4.2 million bpd"],
-            ["Voyage Reduction", "Up to 7,000 nautical miles"],
-            ["Cost Savings", "≈25–35%"],
-            ["CO₂ Reduction", "≈52 million tons (first decade)"],
-          ].map(([title, value]) => (
-            <div key={title} className="p-6">
-              <div className="text-2xl md:text-3xl font-bold font-mono text-foreground">{value}</div>
-              <div className="mt-1 text-sm text-muted-foreground">{title}</div>
+            ["320", "kilometers", "Length of the pipeline linking the Atlantic and Pacific coasts of Guatemala"],
+            ["4.2", "million barrels per day", "Maximum transport capacity — enough to supply major global markets"],
+            ["7,000", "nautical miles saved", "Shorter shipping routes compared to existing pathways"],
+            ["52", "million tons CO₂", "Estimated emissions reduction over the first decade from shorter voyages"],
+          ].map(([value, unit, description]) => (
+            <div key={unit} className="p-6">
+              <div className="text-4xl md:text-5xl font-bold font-mono text-foreground">{value}</div>
+              <div className="mt-1 text-xs uppercase tracking-wide text-muted-foreground">{unit}</div>
+              <div className="mt-2 text-sm text-muted-foreground">{description}</div>
             </div>
           ))}
         </div>
