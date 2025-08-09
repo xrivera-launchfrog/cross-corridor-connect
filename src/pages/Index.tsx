@@ -81,31 +81,17 @@ const Index = () => {
             By providing an alternative to traditional maritime routes through congested or politically sensitive chokepoints, the TGP improves supply chain resilience and facilitates reliable, on-time delivery to high-demand markets.
           </p>
         </div>
-        <figure className="grid grid-cols-2 gap-4">
-          <div className="relative rounded-md overflow-hidden ring-1 ring-border">
-            <img
-              src="/lovable-uploads/ecc86140-db0c-403f-afd8-39e0d335afae.png"
-              alt="Subsea pipelines across seabed with blue water"
-              loading="lazy"
-              decoding="async"
-              width={1024}
-              height={640}
-              className="w-full h-auto object-cover"
-            />
-            <div className="absolute inset-0 bg-primary/25 mix-blend-multiply" aria-hidden="true"></div>
-          </div>
-          <div className="relative rounded-md overflow-hidden ring-1 ring-border">
-            <img
-              src="/lovable-uploads/32bfb600-a4bc-4b4e-8558-2e7161c10c3a.png"
-              alt="Diver welding a subsea pipeline section"
-              loading="lazy"
-              decoding="async"
-              width={1024}
-              height={640}
-              className="w-full h-auto object-cover"
-            />
-            <div className="absolute inset-0 bg-accent/20 mix-blend-multiply" aria-hidden="true"></div>
-          </div>
+        <figure className="relative rounded-md overflow-hidden ring-1 ring-border">
+          <img
+            src="/lovable-uploads/ecc86140-db0c-403f-afd8-39e0d335afae.png"
+            alt="Subsea pipelines across seabed with blue water"
+            loading="lazy"
+            decoding="async"
+            width={1024}
+            height={640}
+            className="w-full h-auto object-cover"
+          />
+          <div className="absolute inset-0 bg-primary/25 mix-blend-multiply" aria-hidden="true"></div>
         </figure>
       </section>
 
@@ -131,43 +117,17 @@ const Index = () => {
             <li><strong className="text-foreground">Environmental Safeguards</strong> – Advanced monitoring and eco‑sensitive methods protect local environments.</li>
           </ul>
         </div>
-        <figure className="grid grid-cols-2 gap-4">
-          <div className="relative col-span-2 rounded-md overflow-hidden ring-1 ring-border">
-            <img
-              src="/lovable-uploads/fd069c99-65c4-4e78-ac83-95c52faf000c.png"
-              alt="Underwater pipeline perspective highlighting durability"
-              loading="lazy"
-              decoding="async"
-              width={1280}
-              height={720}
-              className="w-full h-64 md:h-80 object-cover"
-            />
-            <div className="absolute inset-0 bg-primary/25 mix-blend-multiply" aria-hidden="true"></div>
-          </div>
-          <div className="relative rounded-md overflow-hidden ring-1 ring-border">
-            <img
-              src="/lovable-uploads/1717a91a-067b-437a-b5fe-685eba6a96ef.png"
-              alt="Seabed pipeline installation near offshore structure"
-              loading="lazy"
-              decoding="async"
-              width={1024}
-              height={640}
-              className="w-full h-48 object-cover"
-            />
-            <div className="absolute inset-0 bg-accent/20 mix-blend-multiply" aria-hidden="true"></div>
-          </div>
-          <div className="relative rounded-md overflow-hidden ring-1 ring-border">
-            <img
-              src="/lovable-uploads/98b879f3-c004-4bb4-af5b-8f7e4ec0a5bc.png"
-              alt="Field engineer inspecting onshore pipeline trench"
-              loading="lazy"
-              decoding="async"
-              width={768}
-              height={1024}
-              className="w-full h-48 object-cover"
-            />
-            <div className="absolute inset-0 bg-primary/15 mix-blend-multiply" aria-hidden="true"></div>
-          </div>
+        <figure className="relative rounded-md overflow-hidden ring-1 ring-border">
+          <img
+            src="/lovable-uploads/fd069c99-65c4-4e78-ac83-95c52faf000c.png"
+            alt="Underwater pipeline perspective highlighting durability"
+            loading="lazy"
+            decoding="async"
+            width={1280}
+            height={720}
+            className="w-full h-64 md:h-80 object-cover"
+          />
+          <div className="absolute inset-0 bg-primary/25 mix-blend-multiply" aria-hidden="true"></div>
         </figure>
       </section>
 

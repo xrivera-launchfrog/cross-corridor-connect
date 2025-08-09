@@ -162,55 +162,21 @@ export default function ProjectOverview() {
               </ul>
             </article>
           </div>
-          <div className="grid gap-6">
-            <figure className="bg-card">
-              <div className="relative rounded-md overflow-hidden ring-1 ring-border">
-                <img
-                  src="/lovable-uploads/fd069c99-65c4-4e78-ac83-95c52faf000c.png"
-                  alt="Underwater pipeline perspective emphasizing structural integrity"
-                  loading="lazy"
-                  decoding="async"
-                  width={1280}
-                  height={720}
-                  className="w-full h-64 md:h-80 object-cover"
-                />
-                <div className="absolute inset-0 bg-primary/25 mix-blend-multiply" aria-hidden="true"></div>
-              </div>
-              <figcaption className="mt-2 text-sm text-muted-foreground">Shorter voyages reduce fuel burn and emissions intensity.</figcaption>
-            </figure>
-            <div className="grid grid-cols-2 gap-6">
-              <figure className="bg-card">
-                <div className="relative rounded-md overflow-hidden ring-1 ring-border">
-                  <img
-                    src="/lovable-uploads/1717a91a-067b-437a-b5fe-685eba6a96ef.png"
-                    alt="Seabed pipeline installation near offshore structure"
-                    loading="lazy"
-                    decoding="async"
-                    width={1024}
-                    height={640}
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="absolute inset-0 bg-accent/20 mix-blend-multiply" aria-hidden="true"></div>
-                </div>
-                <figcaption className="mt-2 text-sm text-muted-foreground">Engineering controls protect marine environments.</figcaption>
-              </figure>
-              <figure className="bg-card">
-                <div className="relative rounded-md overflow-hidden ring-1 ring-border">
-                  <img
-                    src="/lovable-uploads/98b879f3-c004-4bb4-af5b-8f7e4ec0a5bc.png"
-                    alt="Field engineer reviewing pipeline trench works"
-                    loading="lazy"
-                    decoding="async"
-                    width={768}
-                    height={1024}
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="absolute inset-0 bg-primary/15 mix-blend-multiply" aria-hidden="true"></div>
-                </div>
-                <figcaption className="mt-2 text-sm text-muted-foreground">Local employment and safety-first construction standards.</figcaption>
-              </figure>
+          <figure className="bg-card">
+            <div className="relative rounded-md overflow-hidden ring-1 ring-border">
+              <img
+                src="/lovable-uploads/1717a91a-067b-437a-b5fe-685eba6a96ef.png"
+                alt="Seabed pipeline installation near offshore structure"
+                loading="lazy"
+                decoding="async"
+                width={1280}
+                height={720}
+                className="w-full h-64 md:h-80 object-cover"
+              />
+              <div className="absolute inset-0 bg-accent/20 mix-blend-multiply" aria-hidden="true"></div>
             </div>
-          </div>
+            <figcaption className="mt-2 text-sm text-muted-foreground">Engineering controls protect marine environments.</figcaption>
+          </figure>
         </div>
       </section>
     </main>
