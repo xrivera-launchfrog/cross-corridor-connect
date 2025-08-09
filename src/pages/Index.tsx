@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
-const heroImg = "/lovable-uploads/1ce8b9ad-746f-4d09-b817-2d124d0dd188.png";
+const heroImg = "/lovable-uploads/43f1a202-1b9b-4360-94a1-1cccbfc36361.png";
 
 const Index = () => {
   const orgLd = {
@@ -30,7 +30,7 @@ const Index = () => {
 
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src={heroImg} alt="Aerial route map linking Atlantic and Pacific" className="w-full h-full object-cover" decoding="async" />
+          <img src={heroImg} alt="Pipeline construction welding on large-diameter pipes" className="w-full h-full object-cover" decoding="async" />
         </div>
         <div className="absolute inset-0 z-10 bg-primary/80" aria-hidden="true"></div>
         <div className="container mx-auto relative z-20 py-24 md:py-36">
