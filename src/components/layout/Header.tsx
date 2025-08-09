@@ -18,7 +18,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/70 border-b">
       <nav className="container mx-auto flex items-center justify-between py-4">
         <Link to="/" className="flex items-center gap-2" aria-label="TGP Home">
-          <span className="text-xl font-semibold tracking-tight bg-clip-text text-transparent bg-[var(--gradient-primary)]">TGP</span>
+          <span className="text-xl font-semibold tracking-tight text-primary font-display">TGP</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-6">
@@ -27,15 +27,18 @@ export default function Header() {
               key={item.to}
               to={item.to}
               className={({ isActive }) =>
-                `text-sm font-medium transition-colors ${isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground"}`
+                `text-sm font-medium transition-colors ${isActive ? "text-foreground underline decoration-accent underline-offset-8 decoration-2" : "text-muted-foreground hover:text-foreground"}`
               }
             >
               {item.label}
             </NavLink>
           ))}
-          <Button asChild size="sm" variant="hero">
-            <Link to="/project-brief">Project Brief</Link>
-          </Button>
+          <NavLink
+            to="/project-brief"
+            className="text-sm font-medium text-foreground underline decoration-accent decoration-2 underline-offset-8"
+          >
+            Project Brief
+          </NavLink>
         </div>
 
         <button
@@ -65,9 +68,13 @@ export default function Header() {
                 {item.label}
               </NavLink>
             ))}
-            <Button asChild size="sm" variant="hero" onClick={() => setOpen(false)}>
-              <Link to="/project-brief">Project Brief</Link>
-            </Button>
+            <NavLink
+              to="/project-brief"
+              onClick={() => setOpen(false)}
+              className="text-sm font-medium text-foreground underline decoration-accent decoration-2 underline-offset-8"
+            >
+              Project Brief
+            </NavLink>
           </div>
         </div>
       )}

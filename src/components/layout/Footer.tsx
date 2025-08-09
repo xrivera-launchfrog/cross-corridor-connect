@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t mt-16">
       <div className="container mx-auto py-10 grid gap-8 md:grid-cols-4">
         <div className="space-y-2">
-          <div className="text-lg font-semibold bg-clip-text text-transparent bg-[var(--gradient-primary)]">TGP</div>
+          <div className="text-lg font-semibold text-primary font-display">TGP</div>
           <p className="text-sm text-muted-foreground max-w-xs">Trans-Guatemala Inter-Oceanic Pipeline — a strategic energy corridor linking the Atlantic and Pacific.</p>
         </div>
 
