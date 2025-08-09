@@ -41,16 +41,19 @@ export default function ProjectOverview() {
               Centralized SCADA provides real-time leak detection and geohazard monitoring with redundant power and communications.
             </p>
           </div>
-          <figure className="border p-2 bg-card">
-            <img
-              src={figPumping}
-              alt="Subdued engineering view of a pipeline pumping station with industrial piping and valves"
-              loading="lazy"
-              decoding="async"
-              width={1024}
-              height={640}
-              className="w-full h-auto"
-            />
+          <figure className="bg-card">
+            <div className="relative rounded-md overflow-hidden ring-1 ring-border">
+              <img
+                src={figPumping}
+                alt="Subdued engineering view of a pipeline pumping station with industrial piping and valves"
+                loading="lazy"
+                decoding="async"
+                width={1024}
+                height={640}
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute inset-0 bg-primary/20 mix-blend-multiply" aria-hidden="true"></div>
+            </div>
             <figcaption className="mt-2 text-sm text-muted-foreground">Representative pumping station equipment (illustrative).</figcaption>
           </figure>
         </div>
@@ -112,18 +115,21 @@ export default function ProjectOverview() {
               <p className="mt-2">Helps level the playing field with Middle East suppliers by compressing transit times and improving arrival windows into Asia-Pacific.</p>
             </article>
           </div>
-          <figure className="border p-2 bg-card">
-            <img
-              src="/lovable-uploads/4111b08d-449e-4ac8-aa4f-2a7961390cea.png"
-              alt="Triple pipeline alignment through forested corridor"
-              loading="lazy"
-              decoding="async"
-              width={1024}
-              height={640}
-              className="w-full h-auto"
-            />
-            <figcaption className="mt-2 text-sm text-muted-foreground">Illustrative multi-line corridor configuration.</figcaption>
-          </figure>
+           <figure className="bg-card">
+             <div className="relative rounded-md overflow-hidden ring-1 ring-border">
+               <img
+                 src="/lovable-uploads/4111b08d-449e-4ac8-aa4f-2a7961390cea.png"
+                 alt="Triple pipeline alignment through forested corridor"
+                 loading="lazy"
+                 decoding="async"
+                 width={1024}
+                 height={640}
+                 className="w-full h-auto object-cover"
+               />
+               <div className="absolute inset-0 bg-accent/20 mix-blend-multiply" aria-hidden="true"></div>
+             </div>
+             <figcaption className="mt-2 text-sm text-muted-foreground">Illustrative multi-line corridor configuration.</figcaption>
+           </figure>
         </div>
       </section>
 
@@ -157,30 +163,53 @@ export default function ProjectOverview() {
             </article>
           </div>
           <div className="grid gap-6">
-            <figure className="border p-2 bg-card">
-              <img
-                src="/lovable-uploads/758b2115-3460-401c-94c5-d38e83012267.png"
-                alt="Pipeline trenching at sunrise along a prepared right-of-way"
-                loading="lazy"
-                decoding="async"
-                width={1024}
-                height={640}
-                className="w-full h-auto"
-              />
-              <figcaption className="mt-2 text-sm text-muted-foreground">Construction sequence along the corridor (illustrative).</figcaption>
+            <figure className="bg-card">
+              <div className="relative rounded-md overflow-hidden ring-1 ring-border">
+                <img
+                  src="/lovable-uploads/fd069c99-65c4-4e78-ac83-95c52faf000c.png"
+                  alt="Underwater pipeline perspective emphasizing structural integrity"
+                  loading="lazy"
+                  decoding="async"
+                  width={1280}
+                  height={720}
+                  className="w-full h-64 md:h-80 object-cover"
+                />
+                <div className="absolute inset-0 bg-primary/25 mix-blend-multiply" aria-hidden="true"></div>
+              </div>
+              <figcaption className="mt-2 text-sm text-muted-foreground">Shorter voyages reduce fuel burn and emissions intensity.</figcaption>
             </figure>
-            <figure className="border p-2 bg-card">
-              <img
-                src="/lovable-uploads/910fd229-a608-4fc8-bbec-83827c1477c7.png"
-                alt="Aerial mosaic of agricultural plots near the corridor"
-                loading="lazy"
-                decoding="async"
-                width={1024}
-                height={640}
-                className="w-full h-auto"
-              />
-              <figcaption className="mt-2 text-sm text-muted-foreground">Regional land-use mosaic informing community engagement and routing.</figcaption>
-            </figure>
+            <div className="grid grid-cols-2 gap-6">
+              <figure className="bg-card">
+                <div className="relative rounded-md overflow-hidden ring-1 ring-border">
+                  <img
+                    src="/lovable-uploads/1717a91a-067b-437a-b5fe-685eba6a96ef.png"
+                    alt="Seabed pipeline installation near offshore structure"
+                    loading="lazy"
+                    decoding="async"
+                    width={1024}
+                    height={640}
+                    className="w-full h-48 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-accent/20 mix-blend-multiply" aria-hidden="true"></div>
+                </div>
+                <figcaption className="mt-2 text-sm text-muted-foreground">Engineering controls protect marine environments.</figcaption>
+              </figure>
+              <figure className="bg-card">
+                <div className="relative rounded-md overflow-hidden ring-1 ring-border">
+                  <img
+                    src="/lovable-uploads/98b879f3-c004-4bb4-af5b-8f7e4ec0a5bc.png"
+                    alt="Field engineer reviewing pipeline trench works"
+                    loading="lazy"
+                    decoding="async"
+                    width={768}
+                    height={1024}
+                    className="w-full h-48 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-primary/15 mix-blend-multiply" aria-hidden="true"></div>
+                </div>
+                <figcaption className="mt-2 text-sm text-muted-foreground">Local employment and safety-first construction standards.</figcaption>
+              </figure>
+            </div>
           </div>
         </div>
       </section>
