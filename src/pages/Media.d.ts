@@ -1,0 +1,1 @@
+// This file ensures JSON-LD script JSX typing is acceptable in TSX files
