@@ -36,10 +36,10 @@ const Index = () => {
         <div className="container mx-auto relative z-20 py-24 md:py-36">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-semibold leading-tight font-display text-primary-foreground">
-              A Strategic Energy Corridor Linking the Atlantic and Pacific
+              A Strategic Energy Corridor for the 21st Century
             </h1>
             <p className="mt-6 text-lg md:text-xl text-primary-foreground/90">
-              The Trans-Guatemala Inter-Oceanic Pipeline (TGP) is a transformative infrastructure project creating a secure, efficient link between the Atlantic and Pacific. Designed to modernize global oil logistics, it strengthens trade connectivity, enhances energy security, and positions the Americas as a more competitive supplier to Asia-Pacific markets.
+              The Trans-Guatemala Inter-Oceanic Pipeline (TGP) is a transformative infrastructure project linking the Atlantic and Pacific coasts of Guatemala. Purpose-built to modernize global oil and refined product transport, TGP provides a shorter, more secure, and more efficient route between the Americas and Asia-Pacific markets.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Link to="/project-overview" className="text-primary-foreground underline decoration-accent decoration-2 underline-offset-8 text-lg font-medium">
@@ -73,15 +73,18 @@ const Index = () => {
 
       <section className="container mx-auto py-16 grid gap-6 md:grid-cols-2 items-start">
         <div>
-          <h2 className="text-2xl md:text-3xl font-semibold font-display">What TGP Solves</h2>
+          <h2 className="text-2xl md:text-3xl font-semibold font-display">About the Project</h2>
           <p className="text-muted-foreground max-w-3xl">
-            TGP provides a secure, efficient alternative to congested or high-risk maritime chokepoints, linking Atlantic basin producers directly to Asia-Pacific demand. The system improves fleet utilization, lowers logistics costs, and enhances energy security.
+            Spanning approximately 320 kilometers, the TGP integrates three large-diameter pipelines with advanced pumping, storage, and export systems. Its coastal terminals are compatible with Very Large Crude Carriers (VLCCs) and supported by modern offshore loading systems. This configuration enables large-scale, bidirectional cargo movement and enhances trade flexibility.
+          </p>
+          <p className="text-muted-foreground max-w-3xl mt-4">
+            By providing an alternative to traditional maritime routes through congested or politically sensitive chokepoints, the TGP improves supply chain resilience and facilitates reliable, on-time delivery to high-demand markets.
           </p>
         </div>
         <figure className="rounded-md overflow-hidden ring-1 ring-border">
           <img
             src="/lovable-uploads/c0ea67d6-72d8-49f1-8a5d-1bd7f92fc433.png"
-            alt="Aerial view of interconnected corridors across mountainous terrain"
+            alt="Pipeline corridor concept spanning Guatemala from Atlantic to Pacific"
             loading="lazy"
             decoding="async"
             width={1024}
@@ -91,17 +94,32 @@ const Index = () => {
         </figure>
       </section>
 
+      <section className="container mx-auto py-16">
+        <h2 className="text-2xl md:text-3xl font-semibold font-display">Strategic Importance</h2>
+        <ul className="mt-4 grid gap-3 list-disc pl-6 text-muted-foreground max-w-4xl">
+          <li><strong className="text-foreground">Enhanced Connectivity</strong> – Links Atlantic basin exporters with Asia-Pacific importers, bypassing traditional bottlenecks and shortening voyage distances.</li>
+          <li><strong className="text-foreground">Time & Cost Efficiency</strong> – Reduces transit times and transportation costs, improving fleet utilization and market responsiveness.</li>
+          <li><strong className="text-foreground">Energy Security</strong> – Diversifies global shipping lanes, reducing reliance on routes vulnerable to geopolitical tension or piracy.</li>
+          <li><strong className="text-foreground">Sustainable Operations</strong> – Shorter routes, fuel‑efficient logistics, and modern environmental safeguards lower emissions.</li>
+        </ul>
+      </section>
+
       <section className="container mx-auto py-16 grid gap-6 md:grid-cols-2 items-start">
         <div>
-          <h2 className="text-2xl md:text-3xl font-semibold font-display">Economic & Environmental Commitments</h2>
-          <p className="text-muted-foreground max-w-3xl">
-            TGP advances national and regional development through job creation and targeted local procurement, while integrating leak detection, eco-sensitive construction, and operational practices projected to reduce CO₂ emissions by an estimated 52 million tons over the first decade through shorter shipping distances.
-          </p>
+          <h2 className="text-2xl md:text-3xl font-semibold font-display">Economic & Environmental Benefits</h2>
+          <p className="text-muted-foreground max-w-3xl">TGP delivers durable advantages for markets and communities:</p>
+          <ul className="mt-4 grid gap-2 list-disc pl-6 text-muted-foreground max-w-3xl">
+            <li><strong className="text-foreground">Trade Growth</strong> – Strengthens competitiveness by improving access to key markets.</li>
+            <li><strong className="text-foreground">Job Creation</strong> – Significant employment during construction and operations.</li>
+            <li><strong className="text-foreground">Regional Development</strong> – Supports local economies and related infrastructure.</li>
+            <li><strong className="text-foreground">Lower Emissions</strong> – Shorter voyages reduce carbon emissions over the project lifetime.</li>
+            <li><strong className="text-foreground">Environmental Safeguards</strong> – Advanced monitoring and eco‑sensitive methods protect local environments.</li>
+          </ul>
         </div>
         <figure className="rounded-md overflow-hidden ring-1 ring-border">
           <img
             src="/lovable-uploads/910fd229-a608-4fc8-bbec-83827c1477c7.png"
-            alt="Aerial mosaic of agricultural plots near proposed corridor"
+            alt="Mosaic of landscapes along proposed corridor illustrating environmental stewardship"
             loading="lazy"
             decoding="async"
             width={1024}
@@ -113,8 +131,8 @@ const Index = () => {
 
       <section className="w-full bg-white">
         <div className="container mx-auto py-16 grid gap-6">
-          <h2 className="text-2xl md:text-3xl font-semibold font-display">Partners</h2>
-          <p className="text-muted-foreground max-w-3xl">Global leaders in engineering, EPC, construction, and finance support delivery and risk management across the project lifecycle.</p>
+          <h2 className="text-2xl md:text-3xl font-semibold font-display">Partners & Expertise</h2>
+          <p className="text-muted-foreground max-w-3xl">The TGP is being delivered with experienced global leaders in engineering, construction, and infrastructure. Their track record in large‑scale energy transport systems ensures delivery to the highest international standards.</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-items-center">
             <img src="/lovable-uploads/49c6311d-bb0e-4915-9176-adfda8bbfd78.png" loading="lazy" decoding="async" alt="Jacobs Engineering logo" className="max-h-8 w-auto" />
             <img src="/lovable-uploads/c1d1c730-a6cf-477a-bb12-b4db3033d2db.png" loading="lazy" decoding="async" alt="ACS Group logo" className="max-h-8 w-auto" />
@@ -125,15 +143,22 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="container mx-auto py-16">
+        <h2 className="text-2xl md:text-3xl font-semibold font-display">Project Status</h2>
+        <p className="text-muted-foreground max-w-4xl mt-2">The project has undergone comprehensive technical, environmental, and social due diligence. Regulatory engagement and permitting are well advanced, and engineering designs have been completed for all major systems. Construction is scheduled in phased stages, with operational readiness targeted within the decade.</p>
+      </section>
+
+      <section className="container mx-auto py-16">
+        <h2 className="text-2xl md:text-3xl font-semibold font-display">Why It Matters</h2>
+        <p className="text-muted-foreground max-w-4xl mt-2">The Trans-Guatemala Inter-Oceanic Pipeline is a strategic asset for global trade. By reducing transport times, improving supply chain security, and aligning with sustainability goals, TGP will play a critical role in the future of energy logistics between the Americas and Asia-Pacific.</p>
+      </section>
+
 
       <section className="container mx-auto py-16 md:py-24">
-        <div className="flex flex-col sm:flex-row gap-4">
-          <Link to="/project-overview" className="underline decoration-accent decoration-2 underline-offset-8 text-lg font-medium">
-            Explore the Project Overview
-          </Link>
-          <Link to="/contact" className="underline decoration-accent/80 decoration-2 underline-offset-8 text-lg font-medium">
-            Contact Investor Relations
-          </Link>
+        <h2 className="text-2xl md:text-3xl font-semibold font-display">Public Contact Information</h2>
+        <div className="mt-6 grid gap-3">
+          <a href="mailto:info@tgppipeline.com" className="underline decoration-accent decoration-2 underline-offset-8 text-lg font-medium">General Inquiries: info@tgppipeline.com</a>
+          <a href="mailto:media@tgppipeline.com" className="underline decoration-accent/80 decoration-2 underline-offset-8 text-lg font-medium">Media Requests: media@tgppipeline.com</a>
         </div>
       </section>
     </>

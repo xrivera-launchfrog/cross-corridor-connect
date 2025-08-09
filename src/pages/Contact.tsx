@@ -5,7 +5,7 @@ export default function Contact() {
     <main>
       <Helmet>
         <title>Contact | TGP</title>
-        <meta name="description" content="For all inquiries, email investorrelations@tgppipeline.com." />
+        <meta name="description" content="General inquiries: info@tgppipeline.com. Media: media@tgppipeline.com." />
         <link rel="canonical" href="/contact" />
       </Helmet>
 
@@ -24,14 +24,22 @@ export default function Contact() {
         </figure>
 
         <div className="mt-8 max-w-2xl rounded-md ring-1 ring-border p-6 bg-white">
-          <h2 className="text-2xl font-semibold">Investor Relations</h2>
-          <p className="mt-2 text-muted-foreground">For all inquiries, please email our team directly. We typically respond within 2 business days.</p>
-          <a
-            href="mailto:investorrelations@tgppipeline.com"
-            className="mt-4 inline-flex items-center underline decoration-accent decoration-2 underline-offset-8 text-lg font-medium"
-          >
-            investorrelations@tgppipeline.com
-          </a>
+          <h2 className="text-2xl font-semibold">Public Contact Information</h2>
+          <p className="mt-2 text-muted-foreground">For inquiries, please reach out via email. We typically respond within 2 business days.</p>
+          <div className="mt-4 grid gap-2">
+            <a
+              href="mailto:info@tgppipeline.com"
+              className="inline-flex items-center underline decoration-accent decoration-2 underline-offset-8 text-lg font-medium"
+            >
+              info@tgppipeline.com
+            </a>
+            <a
+              href="mailto:media@tgppipeline.com"
+              className="inline-flex items-center underline decoration-accent/80 decoration-2 underline-offset-8 text-lg font-medium"
+            >
+              media@tgppipeline.com
+            </a>
+          </div>
           <p className="mt-4 text-sm text-muted-foreground">Information on this site is for informational purposes only and does not constitute an offer to sell securities.</p>
         </div>
       </section>
