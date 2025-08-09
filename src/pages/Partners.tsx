@@ -1,9 +1,5 @@
 import { Helmet } from "react-helmet-async";
 import jacobs from "@/assets/logos/jacobs.png";
-import acs from "@/assets/logos/acs.png";
-import apc from "@/assets/logos/apc.png";
-import chimera from "@/assets/logos/chimera.png";
-import dfc from "@/assets/logos/dfc.png";
 
 export default function Partners() {
   return (
@@ -30,19 +26,14 @@ export default function Partners() {
         </div>
       </section>
 
-      <section className="container mx-auto py-12 md:py-20">
+      <section className="container mx-auto py-12 md:py-20 bg-background">
         <h2 className="sr-only">Partners</h2>
-        <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 items-center justify-items-center">
-          <img src={jacobs} width="160" height="64" loading="lazy" decoding="async" alt="Jacobs Engineering monochrome wordmark logo" className="max-h-10 w-auto" />
-          <img src={acs} width="160" height="64" loading="lazy" decoding="async" alt="ACS Group monochrome wordmark logo" className="max-h-10 w-auto" />
-          <img src={apc} width="160" height="64" loading="lazy" decoding="async" alt="APC monochrome wordmark logo" className="max-h-10 w-auto" />
-          <img src={chimera} width="160" height="64" loading="lazy" decoding="async" alt="Chimera Capital Partners monochrome wordmark logo" className="max-h-10 w-auto" />
-          <img src={dfc} width="160" height="64" loading="lazy" decoding="async" alt="DFC monochrome wordmark logo" className="max-h-10 w-auto" />
-          {/* Uploaded color logos */}
-          <img src="/lovable-uploads/c1d1c730-a6cf-477a-bb12-b4db3033d2db.png" width="160" height="64" loading="lazy" decoding="async" alt="ACS Group logo (color)" className="max-h-10 w-auto" />
-          <img src="/lovable-uploads/5857b88d-1dde-4a29-84a5-5b0d503fb194.png" width="160" height="64" loading="lazy" decoding="async" alt="APC Construction Company circular logo" className="max-h-10 w-auto" />
-          <img src="/lovable-uploads/493accf4-92be-4060-b7d9-7b304c674a44.png" width="160" height="64" loading="lazy" decoding="async" alt="U.S. International Development Finance Corporation (DFC) logo" className="max-h-10 w-auto" />
-          <img src="/lovable-uploads/4873978b-1b59-42df-81fe-1abd8e74a32e.png" width="160" height="64" loading="lazy" decoding="async" alt="Partner logo (navy and gray wordmark)" className="max-h-10 w-auto" />
+        <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-items-center">
+          <img src={jacobs} loading="lazy" decoding="async" alt="Jacobs Engineering logo" className="max-h-8 w-auto" />
+          <img src="/lovable-uploads/c1d1c730-a6cf-477a-bb12-b4db3033d2db.png" loading="lazy" decoding="async" alt="ACS Group logo" className="max-h-8 w-auto" />
+          <img src="/lovable-uploads/5857b88d-1dde-4a29-84a5-5b0d503fb194.png" loading="lazy" decoding="async" alt="APC Construction Company logo" className="max-h-8 w-auto" />
+          <img src="/lovable-uploads/493accf4-92be-4060-b7d9-7b304c674a44.png" loading="lazy" decoding="async" alt="U.S. International Development Finance Corporation logo" className="max-h-8 w-auto" />
+          <img src="/lovable-uploads/4873978b-1b59-42df-81fe-1abd8e74a32e.png" loading="lazy" decoding="async" alt="Partner logo (navy and gray wordmark)" className="max-h-8 w-auto" />
         </div>
         <div className="mt-12 grid gap-8 max-w-4xl">
           <article>
