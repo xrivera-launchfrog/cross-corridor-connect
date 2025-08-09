@@ -39,7 +39,7 @@ const Index = () => {
               A Strategic Energy Corridor Linking the Atlantic and Pacific
             </h1>
             <p className="mt-6 text-lg md:text-xl text-primary-foreground/90">
-              The Trans-Guatemala Inter-Oceanic Pipeline (TGP) is a $7.52B, 320-kilometer, bidirectional pipeline system designed to shorten voyages by up to 7,000 nautical miles and reduce per-barrel shipping costs by 25–35%.
+              The Trans-Guatemala Inter-Oceanic Pipeline (TGP) is a transformative infrastructure project creating a secure, efficient link between the Atlantic and Pacific. Designed to modernize global oil logistics, it strengthens trade connectivity, enhances energy security, and positions the Americas as a more competitive supplier to Asia-Pacific markets.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Link to="/project-overview" className="text-primary-foreground underline decoration-accent decoration-2 underline-offset-8 text-lg font-medium">
@@ -125,13 +125,6 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="container mx-auto py-16 grid gap-6">
-        <h2 className="text-2xl md:text-3xl font-semibold font-display">Latest Updates</h2>
-        <ul className="grid gap-4">
-          <li className="text-muted-foreground">Program milestones, institutional support notices, and technical briefings.</li>
-        </ul>
-        <p className="text-sm text-muted-foreground">Press inquiries: media@tgppipeline.com</p>
-      </section>
 
       <section className="container mx-auto py-16 md:py-24">
         <div className="flex flex-col sm:flex-row gap-4">
