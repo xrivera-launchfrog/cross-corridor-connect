@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+
 const heroImg = "/lovable-uploads/1ce8b9ad-746f-4d09-b817-2d124d0dd188.png";
 
 const Index = () => {
@@ -111,12 +111,18 @@ const Index = () => {
         </figure>
       </section>
 
-      <section className="container mx-auto py-16 grid gap-6">
-        <h2 className="text-2xl md:text-3xl font-semibold font-display">Partners</h2>
-        <p className="text-muted-foreground max-w-3xl">Global leaders in engineering, EPC, construction, and finance support delivery and risk management across the project lifecycle.</p>
-        <Button asChild variant="link">
-          <Link to="/partners">Learn more: Partners</Link>
-        </Button>
+      <section className="w-full bg-white">
+        <div className="container mx-auto py-16 grid gap-6">
+          <h2 className="text-2xl md:text-3xl font-semibold font-display">Partners</h2>
+          <p className="text-muted-foreground max-w-3xl">Global leaders in engineering, EPC, construction, and finance support delivery and risk management across the project lifecycle.</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-items-center">
+            <img src="/lovable-uploads/49c6311d-bb0e-4915-9176-adfda8bbfd78.png" loading="lazy" decoding="async" alt="Jacobs Engineering logo" className="max-h-8 w-auto" />
+            <img src="/lovable-uploads/c1d1c730-a6cf-477a-bb12-b4db3033d2db.png" loading="lazy" decoding="async" alt="ACS Group logo" className="max-h-8 w-auto" />
+            <img src="/lovable-uploads/5857b88d-1dde-4a29-84a5-5b0d503fb194.png" loading="lazy" decoding="async" alt="APC Construction Company logo" className="max-h-8 w-auto" />
+            <img src="/lovable-uploads/bdc2be86-a110-4459-8752-2fff7d46c00b.png" loading="lazy" decoding="async" alt="U.S. International Development Finance Corporation logo" className="max-h-8 w-auto" />
+            <img src="/lovable-uploads/4873978b-1b59-42df-81fe-1abd8e74a32e.png" loading="lazy" decoding="async" alt="Partner logo (navy and gray wordmark)" className="max-h-8 w-auto" />
+          </div>
+        </div>
       </section>
 
       <section className="container mx-auto py-16 grid gap-6">
