@@ -78,7 +78,7 @@ const Index = () => {
             TGP provides a secure, efficient alternative to congested or high-risk maritime chokepoints, linking Atlantic basin producers directly to Asia-Pacific demand. The system improves fleet utilization, lowers logistics costs, and enhances energy security.
           </p>
         </div>
-        <figure className="border p-2 bg-card">
+        <figure className="rounded-md overflow-hidden ring-1 ring-border">
           <img
             src="/lovable-uploads/c0ea67d6-72d8-49f1-8a5d-1bd7f92fc433.png"
             alt="Aerial view of interconnected corridors across mountainous terrain"
@@ -88,7 +88,6 @@ const Index = () => {
             height={640}
             className="w-full h-auto"
           />
-          <figcaption className="mt-2 text-sm text-muted-foreground">Regional network connectivity and route context (illustrative).</figcaption>
         </figure>
       </section>
 
@@ -99,7 +98,7 @@ const Index = () => {
             TGP advances national and regional development through job creation and targeted local procurement, while integrating leak detection, eco-sensitive construction, and operational practices projected to reduce CO₂ emissions by an estimated 52 million tons over the first decade through shorter shipping distances.
           </p>
         </div>
-        <figure className="border p-2 bg-card">
+        <figure className="rounded-md overflow-hidden ring-1 ring-border">
           <img
             src="/lovable-uploads/910fd229-a608-4fc8-bbec-83827c1477c7.png"
             alt="Aerial mosaic of agricultural plots near proposed corridor"
@@ -109,7 +108,6 @@ const Index = () => {
             height={640}
             className="w-full h-auto"
           />
-          <figcaption className="mt-2 text-sm text-muted-foreground">Community and environmental context in the region (illustrative).</figcaption>
         </figure>
       </section>
 
