@@ -12,7 +12,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-[hsl(var(--nav-bg))] border-b">
+    <header className="sticky top-0 z-50 border-b bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url("/lovable-uploads/43f1a202-1b9b-4360-94a1-1cccbfc36361.png")' }}>
       <nav className="container mx-auto flex items-center justify-between py-4">
         <Link to="/" className="flex items-center gap-2" aria-label="Trans Guatemala Pipeline Home">
           <img
