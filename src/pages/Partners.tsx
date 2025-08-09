@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import jacobs from "@/assets/logos/jacobs.png";
+
 
 export default function Partners() {
   return (
@@ -26,30 +26,35 @@ export default function Partners() {
         </div>
       </section>
 
-      <section className="container mx-auto py-12 md:py-20 bg-background">
-        <h2 className="sr-only">Partners</h2>
-        <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-items-center">
-          <img src={jacobs} loading="lazy" decoding="async" alt="Jacobs Engineering logo" className="max-h-8 w-auto" />
-          <img src="/lovable-uploads/c1d1c730-a6cf-477a-bb12-b4db3033d2db.png" loading="lazy" decoding="async" alt="ACS Group logo" className="max-h-8 w-auto" />
-          <img src="/lovable-uploads/5857b88d-1dde-4a29-84a5-5b0d503fb194.png" loading="lazy" decoding="async" alt="APC Construction Company logo" className="max-h-8 w-auto" />
-          <img src="/lovable-uploads/493accf4-92be-4060-b7d9-7b304c674a44.png" loading="lazy" decoding="async" alt="U.S. International Development Finance Corporation logo" className="max-h-8 w-auto" />
-          <img src="/lovable-uploads/4873978b-1b59-42df-81fe-1abd8e74a32e.png" loading="lazy" decoding="async" alt="Partner logo (navy and gray wordmark)" className="max-h-8 w-auto" />
+      <section className="w-full bg-white">
+        <div className="container mx-auto py-12 md:py-20">
+          <h2 className="sr-only">Partners</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-items-center">
+            <img src="/lovable-uploads/49c6311d-bb0e-4915-9176-adfda8bbfd78.png" loading="lazy" decoding="async" alt="Jacobs Engineering logo" className="max-h-8 w-auto" />
+            <img src="/lovable-uploads/c1d1c730-a6cf-477a-bb12-b4db3033d2db.png" loading="lazy" decoding="async" alt="ACS Group logo" className="max-h-8 w-auto" />
+            <img src="/lovable-uploads/5857b88d-1dde-4a29-84a5-5b0d503fb194.png" loading="lazy" decoding="async" alt="APC Construction Company logo" className="max-h-8 w-auto" />
+            <img src="/lovable-uploads/493accf4-92be-4060-b7d9-7b304c674a44.png" loading="lazy" decoding="async" alt="U.S. International Development Finance Corporation logo" className="max-h-8 w-auto" />
+            <img src="/lovable-uploads/4873978b-1b59-42df-81fe-1abd8e74a32e.png" loading="lazy" decoding="async" alt="Partner logo (navy and gray wordmark)" className="max-h-8 w-auto" />
+          </div>
         </div>
-        <div className="mt-12 grid gap-8 max-w-4xl">
+      </section>
+
+      <section className="container mx-auto py-12 md:py-20">
+        <div className="grid gap-8 max-w-4xl">
           <article>
             <h2 className="text-xl font-semibold">Engineering — Jacobs Engineering</h2>
-            <p className="mt-2 text-muted-foreground">Fortune 500 engineering firm with deep pipeline design expertise across concept, FEED, EPC support, and O&M advisory.</p>
+            <p className="mt-2 text-muted-foreground">Fortune 500 engineering firm with deep pipeline design expertise across concept, FEED, EPC support, and O&amp;M advisory.</p>
           </article>
           <article>
             <h2 className="text-xl font-semibold">EPC — ACS Group</h2>
             <p className="mt-2 text-muted-foreground">Global EPC leader with established presence in Central America; delivery at scale for industrial and civil infrastructure.</p>
           </article>
           <article>
-            <h2 className="text-xl font-semibold">Pipeline Construction & Consulting — Associated Pipeline Contractors (APC)</h2>
+            <h2 className="text-xl font-semibold">Pipeline Construction &amp; Consulting — Associated Pipeline Contractors (APC)</h2>
             <p className="mt-2 text-muted-foreground">Over 25,000 miles constructed across 27 countries with track record in challenging terrains and climates.</p>
           </article>
           <article>
-            <h2 className="text-xl font-semibold">Financial Advisor & Senior Lender — Chimera Capital Partners</h2>
+            <h2 className="text-xl font-semibold">Financial Advisor &amp; Senior Lender — Chimera Capital Partners</h2>
             <p className="mt-2 text-muted-foreground">Independent private lender for energy and infrastructure with global project finance experience.</p>
           </article>
           <article>
