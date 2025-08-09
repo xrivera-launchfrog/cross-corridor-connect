@@ -54,14 +54,15 @@ const Index = () => {
       </section>
 
       <section className="container mx-auto py-16 md:py-24">
-        <h2 className="sr-only">Project at a Glance</h2>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 divide-y sm:divide-y-0 sm:divide-x divide-border">
+        <h2 className="sr-only">Key Stats</h2>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 divide-y sm:divide-y-0 sm:divide-x divide-border">
           {[
-            ["Pipeline Length", "320 km"],
-            ["Max Throughput", "4.2M bpd"],
-            ["Investment", "$7.52B"],
-            ["Voyage Reduction", "40 days"],
-            ["Cost Savings", "25–35%"],
+            ["Length", "≈320 km"],
+            ["Pipeline Diameter", "42 inches × 3"],
+            ["Throughput Capacity", "Up to 4.2 million bpd"],
+            ["Voyage Reduction", "Up to 7,000 nautical miles"],
+            ["Cost Savings", "≈25–35%"],
+            ["CO₂ Reduction", "≈52 million tons (first decade)"],
           ].map(([title, value]) => (
             <div key={title} className="p-6">
               <div className="text-2xl md:text-3xl font-bold font-mono text-foreground">{value}</div>
@@ -127,6 +128,11 @@ const Index = () => {
             className="w-full h-auto"
           />
         </figure>
+      </section>
+
+      <section className="container mx-auto py-16">
+        <h2 className="text-2xl md:text-3xl font-semibold font-display">Global Market Relevance</h2>
+        <p className="text-muted-foreground max-w-4xl mt-2">Asia-Pacific economies are among the largest consumers of energy in the world, with demand projected to continue growing. TGP’s strategic location and large-scale capacity position it as a competitive and secure supply route, complementing global energy infrastructure and supporting balanced market access.</p>
       </section>
 
       <section className="w-full bg-white">
