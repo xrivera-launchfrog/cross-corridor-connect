@@ -38,6 +38,11 @@ export default function Partners() {
           <img src={apc} width="160" height="64" loading="lazy" decoding="async" alt="APC monochrome wordmark logo" className="max-h-10 w-auto" />
           <img src={chimera} width="160" height="64" loading="lazy" decoding="async" alt="Chimera Capital Partners monochrome wordmark logo" className="max-h-10 w-auto" />
           <img src={dfc} width="160" height="64" loading="lazy" decoding="async" alt="DFC monochrome wordmark logo" className="max-h-10 w-auto" />
+          {/* Uploaded color logos */}
+          <img src="/lovable-uploads/c1d1c730-a6cf-477a-bb12-b4db3033d2db.png" width="160" height="64" loading="lazy" decoding="async" alt="ACS Group logo (color)" className="max-h-10 w-auto" />
+          <img src="/lovable-uploads/5857b88d-1dde-4a29-84a5-5b0d503fb194.png" width="160" height="64" loading="lazy" decoding="async" alt="APC Construction Company circular logo" className="max-h-10 w-auto" />
+          <img src="/lovable-uploads/493accf4-92be-4060-b7d9-7b304c674a44.png" width="160" height="64" loading="lazy" decoding="async" alt="U.S. International Development Finance Corporation (DFC) logo" className="max-h-10 w-auto" />
+          <img src="/lovable-uploads/4873978b-1b59-42df-81fe-1abd8e74a32e.png" width="160" height="64" loading="lazy" decoding="async" alt="Partner logo (navy and gray wordmark)" className="max-h-10 w-auto" />
         </div>
         <div className="mt-12 grid gap-8 max-w-4xl">
           <article>
