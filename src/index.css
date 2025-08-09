@@ -105,4 +105,14 @@ All colors MUST be HSL. */
     @apply bg-background text-foreground antialiased;
     font-family: 'Source Serif 4', Georgia, serif;
   }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+  h1, h2 {
+    @apply text-primary;
+  }
+  h3, h4 {
+    @apply text-foreground;
+  }
 }

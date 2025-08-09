@@ -10,8 +10,24 @@ export default function ProjectOverview() {
         <link rel="canonical" href="/project-overview" />
       </Helmet>
 
+      <section className="relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src={figPumping}
+            alt="Pipeline pumping station context — subdued engineering scene"
+            className="w-full h-full object-cover"
+            decoding="async"
+          />
+        </div>
+        <div className="absolute inset-0 z-10 bg-primary/80" aria-hidden="true"></div>
+        <div className="container mx-auto relative z-20 py-20 md:py-28">
+          <h1 className="text-4xl md:text-5xl font-semibold font-display text-primary-foreground">Project Overview</h1>
+          <p className="mt-4 text-primary-foreground/90 max-w-2xl">A 320 km Atlantic–Pacific energy corridor with VLCC-compatible terminals and up to 4.2M bpd throughput.</p>
+        </div>
+      </section>
+
       <section className="container mx-auto py-12 md:py-20">
-        <h1 className="text-3xl md:text-4xl font-semibold">Project Overview</h1>
+        <h2 className="text-2xl md:text-3xl font-semibold">Overview</h2>
         <p className="mt-6 text-muted-foreground max-w-3xl">
           The Trans-Guatemala Inter-Oceanic Pipeline (TGP) is a cross-continental energy corridor spanning 320 kilometers, designed for bidirectional transport of crude oil and refined products between Guatemala’s Atlantic and Pacific coasts. Three parallel 42-inch pipelines, advanced pumping stations, and VLCC-compatible monobuoy terminals enable rapid, secure, and scalable throughput of up to 4.2 million barrels per day.
         </p>

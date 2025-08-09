@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-const heroImg = "/lovable-uploads/06c5dd90-d1c9-4aae-8e4a-c532efee406e.png";
+const heroImg = "/lovable-uploads/1ce8b9ad-746f-4d09-b817-2d124d0dd188.png";
 
 const Index = () => {
   const orgLd = {
@@ -29,11 +29,11 @@ const Index = () => {
       </Helmet>
 
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 -z-20">
-          <img src={heroImg} alt="Aerial route map linking Atlantic and Pacific" className="w-full h-full object-cover" loading="lazy" />
+        <div className="absolute inset-0 z-0">
+          <img src={heroImg} alt="Aerial route map linking Atlantic and Pacific" className="w-full h-full object-cover" decoding="async" />
         </div>
-        <div className="absolute inset-0 -z-10 bg-primary/80" aria-hidden="true"></div>
-        <div className="container mx-auto py-24 md:py-36">
+        <div className="absolute inset-0 z-10 bg-primary/80" aria-hidden="true"></div>
+        <div className="container mx-auto relative z-20 py-24 md:py-36">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-semibold leading-tight font-display text-primary-foreground">
               A Strategic Energy Corridor Linking the Atlantic and Pacific
