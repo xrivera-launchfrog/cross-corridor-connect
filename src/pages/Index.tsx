@@ -55,14 +55,13 @@ const Index = () => {
 
       <section className="container mx-auto py-16 md:py-24">
         <h2 className="sr-only">Project at a Glance</h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-border">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 divide-y sm:divide-y-0 sm:divide-x divide-border">
           {[
-            ["Length", "320 km"],
-            ["Pipelines", "Three × 42-inch lines (bidirectional)"],
-            ["Throughput", "Up to 4.2 million barrels per day"],
-            ["Terminals", "VLCC-compatible monobuoys, Atlantic & Pacific"],
-            ["Finance", "Senior loan commitment of $7.52B"],
-            ["Impact", "Up to 40 days average voyage time reduction"],
+            ["Pipeline Length", "320 km"],
+            ["Max Throughput", "4.2M bpd"],
+            ["Investment", "$7.52B"],
+            ["Voyage Reduction", "40 days"],
+            ["Cost Savings", "25–35%"],
           ].map(([title, value]) => (
             <div key={title} className="p-6">
               <div className="text-2xl md:text-3xl font-bold font-mono text-foreground">{value}</div>
