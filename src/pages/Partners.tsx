@@ -61,7 +61,7 @@ export default function Partners() {
             <h2 className="text-xl font-semibold">Institutional Support — U.S. International Development Finance Corporation (DFC)</h2>
             <p className="mt-2 text-muted-foreground">Minority participation and political risk insurance interest (subject to final diligence and approvals).</p>
           </article>
-          <p className="text-sm text-muted-foreground">Logos and detailed roles available upon request.</p>
+          
         </div>
       </section>
     </main>
