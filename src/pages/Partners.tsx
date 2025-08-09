@@ -1,4 +1,9 @@
 import { Helmet } from "react-helmet-async";
+import jacobs from "@/assets/logos/jacobs.png";
+import acs from "@/assets/logos/acs.png";
+import apc from "@/assets/logos/apc.png";
+import chimera from "@/assets/logos/chimera.png";
+import dfc from "@/assets/logos/dfc.png";
 
 export default function Partners() {
   return (
@@ -11,7 +16,14 @@ export default function Partners() {
 
       <section className="container mx-auto py-12 md:py-20">
         <h1 className="text-3xl md:text-4xl font-semibold">Delivery Partners & Institutions</h1>
-        <div className="mt-8 grid gap-8 max-w-4xl">
+        <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 items-center justify-items-center">
+          <img src={jacobs} width="160" height="64" loading="lazy" decoding="async" alt="Jacobs Engineering monochrome wordmark logo" className="max-h-10 w-auto" />
+          <img src={acs} width="160" height="64" loading="lazy" decoding="async" alt="ACS Group monochrome wordmark logo" className="max-h-10 w-auto" />
+          <img src={apc} width="160" height="64" loading="lazy" decoding="async" alt="APC monochrome wordmark logo" className="max-h-10 w-auto" />
+          <img src={chimera} width="160" height="64" loading="lazy" decoding="async" alt="Chimera Capital Partners monochrome wordmark logo" className="max-h-10 w-auto" />
+          <img src={dfc} width="160" height="64" loading="lazy" decoding="async" alt="DFC monochrome wordmark logo" className="max-h-10 w-auto" />
+        </div>
+        <div className="mt-12 grid gap-8 max-w-4xl">
           <article>
             <h2 className="text-xl font-semibold">Engineering — Jacobs Engineering</h2>
             <p className="mt-2 text-muted-foreground">Fortune 500 engineering firm with deep pipeline design expertise across concept, FEED, EPC support, and O&M advisory.</p>

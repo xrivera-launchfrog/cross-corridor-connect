@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import heroImg from "@/assets/og-route-hero.jpg";
+import heroImg from "@/assets/hero-route-map.jpg";
 
 const Index = () => {
   const orgLd = {
