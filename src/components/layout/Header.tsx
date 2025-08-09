@@ -4,10 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const navItems = [
   { to: "/project-overview", label: "Project Overview" },
-  { to: "/strategic-advantages", label: "Strategic Advantages" },
-  { to: "/economic-environmental-benefits", label: "Benefits" },
   { to: "/partners", label: "Partners" },
-  { to: "/media", label: "Media" },
   { to: "/contact", label: "Contact" },
 ];
 
@@ -33,12 +30,6 @@ export default function Header() {
               {item.label}
             </NavLink>
           ))}
-          <NavLink
-            to="/project-brief"
-            className="text-sm font-medium text-foreground underline decoration-accent decoration-2 underline-offset-8"
-          >
-            Project Brief
-          </NavLink>
         </div>
 
         <button
@@ -68,13 +59,6 @@ export default function Header() {
                 {item.label}
               </NavLink>
             ))}
-            <NavLink
-              to="/project-brief"
-              onClick={() => setOpen(false)}
-              className="text-sm font-medium text-foreground underline decoration-accent decoration-2 underline-offset-8"
-            >
-              Project Brief
-            </NavLink>
           </div>
         </div>
       )}

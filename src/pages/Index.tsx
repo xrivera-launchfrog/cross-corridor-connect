@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import heroImg from "@/assets/hero-route-map.jpg";
+const heroImg = "/lovable-uploads/06c5dd90-d1c9-4aae-8e4a-c532efee406e.png";
 
 const Index = () => {
   const orgLd = {
@@ -72,18 +72,46 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="container mx-auto py-16 grid gap-6">
-        <h2 className="text-2xl md:text-3xl font-semibold font-display">What TGP Solves</h2>
-        <p className="text-muted-foreground max-w-3xl">
-          TGP provides a secure, efficient alternative to congested or high-risk maritime chokepoints, linking Atlantic basin producers directly to Asia-Pacific demand. The system improves fleet utilization, lowers logistics costs, and enhances energy security.
-        </p>
+      <section className="container mx-auto py-16 grid gap-6 md:grid-cols-2 items-start">
+        <div>
+          <h2 className="text-2xl md:text-3xl font-semibold font-display">What TGP Solves</h2>
+          <p className="text-muted-foreground max-w-3xl">
+            TGP provides a secure, efficient alternative to congested or high-risk maritime chokepoints, linking Atlantic basin producers directly to Asia-Pacific demand. The system improves fleet utilization, lowers logistics costs, and enhances energy security.
+          </p>
+        </div>
+        <figure className="border p-2 bg-card">
+          <img
+            src="/lovable-uploads/c0ea67d6-72d8-49f1-8a5d-1bd7f92fc433.png"
+            alt="Aerial view of interconnected corridors across mountainous terrain"
+            loading="lazy"
+            decoding="async"
+            width={1024}
+            height={640}
+            className="w-full h-auto"
+          />
+          <figcaption className="mt-2 text-sm text-muted-foreground">Regional network connectivity and route context (illustrative).</figcaption>
+        </figure>
       </section>
 
-      <section className="container mx-auto py-16 grid gap-6">
-        <h2 className="text-2xl md:text-3xl font-semibold font-display">Economic & Environmental Commitments</h2>
-        <p className="text-muted-foreground max-w-3xl">
-          TGP advances national and regional development through job creation and targeted local procurement, while integrating leak detection, eco-sensitive construction, and operational practices projected to reduce CO₂ emissions by an estimated 52 million tons over the first decade through shorter shipping distances.
-        </p>
+      <section className="container mx-auto py-16 grid gap-6 md:grid-cols-2 items-start">
+        <div>
+          <h2 className="text-2xl md:text-3xl font-semibold font-display">Economic & Environmental Commitments</h2>
+          <p className="text-muted-foreground max-w-3xl">
+            TGP advances national and regional development through job creation and targeted local procurement, while integrating leak detection, eco-sensitive construction, and operational practices projected to reduce CO₂ emissions by an estimated 52 million tons over the first decade through shorter shipping distances.
+          </p>
+        </div>
+        <figure className="border p-2 bg-card">
+          <img
+            src="/lovable-uploads/910fd229-a608-4fc8-bbec-83827c1477c7.png"
+            alt="Aerial mosaic of agricultural plots near proposed corridor"
+            loading="lazy"
+            decoding="async"
+            width={1024}
+            height={640}
+            className="w-full h-auto"
+          />
+          <figcaption className="mt-2 text-sm text-muted-foreground">Community and environmental context in the region (illustrative).</figcaption>
+        </figure>
       </section>
 
       <section className="container mx-auto py-16 grid gap-6">
@@ -99,15 +127,13 @@ const Index = () => {
         <ul className="grid gap-4">
           <li className="text-muted-foreground">Program milestones, institutional support notices, and technical briefings.</li>
         </ul>
-        <Button asChild variant="link">
-          <Link to="/media">See all: Media</Link>
-        </Button>
+        <p className="text-sm text-muted-foreground">Press inquiries: media@tgppipeline.com</p>
       </section>
 
       <section className="container mx-auto py-16 md:py-24">
         <div className="flex flex-col sm:flex-row gap-4">
-          <Link to="/project-brief" className="underline decoration-accent decoration-2 underline-offset-8 text-lg font-medium">
-            Download the Project Brief
+          <Link to="/project-overview" className="underline decoration-accent decoration-2 underline-offset-8 text-lg font-medium">
+            Explore the Project Overview
           </Link>
           <Link to="/contact" className="underline decoration-accent/80 decoration-2 underline-offset-8 text-lg font-medium">
             Contact Investor Relations

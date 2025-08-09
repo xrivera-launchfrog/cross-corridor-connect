@@ -40,6 +40,18 @@ export default function Contact() {
 
       <section className="container mx-auto py-12 md:py-20">
         <h1 className="text-3xl md:text-4xl font-semibold">Contact</h1>
+        <figure className="mt-6 border p-2 bg-card">
+          <img
+            src="/lovable-uploads/1ce8b9ad-746f-4d09-b817-2d124d0dd188.png"
+            alt="Pipeline traversing rolling green highlands under cloudy sky"
+            loading="lazy"
+            decoding="async"
+            width={1280}
+            height={720}
+            className="w-full h-auto"
+          />
+          <figcaption className="mt-2 text-sm text-muted-foreground">Illustrative infrastructure context — not a depiction of the actual project.</figcaption>
+        </figure>
 
         {!submitted ? (
           <form onSubmit={handleSubmit(onSubmit)} className="mt-8 grid gap-6 max-w-2xl">

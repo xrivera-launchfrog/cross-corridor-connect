@@ -16,6 +16,18 @@ export default function Partners() {
 
       <section className="container mx-auto py-12 md:py-20">
         <h1 className="text-3xl md:text-4xl font-semibold">Delivery Partners & Institutions</h1>
+        <figure className="mt-6 border p-2 bg-card">
+          <img
+            src="/lovable-uploads/798ab50b-fce8-4593-a0b0-0366424aeeb8.png"
+            alt="Highland volcanoes and farmland in Guatemala under clear skies"
+            loading="lazy"
+            decoding="async"
+            width={1280}
+            height={720}
+            className="w-full h-auto"
+          />
+          <figcaption className="mt-2 text-sm text-muted-foreground">Guatemalan highlands — regional context (illustrative).</figcaption>
+        </figure>
         <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 items-center justify-items-center">
           <img src={jacobs} width="160" height="64" loading="lazy" decoding="async" alt="Jacobs Engineering monochrome wordmark logo" className="max-h-10 w-auto" />
           <img src={acs} width="160" height="64" loading="lazy" decoding="async" alt="ACS Group monochrome wordmark logo" className="max-h-10 w-auto" />

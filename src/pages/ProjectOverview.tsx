@@ -69,6 +69,105 @@ export default function ProjectOverview() {
           <li>Increased market resilience and supply security.</li>
         </ul>
       </section>
+
+      {/* Combined: Strategic Advantages */}
+      <section className="container mx-auto py-12 md:py-20">
+        <h2 className="text-2xl md:text-3xl font-semibold">Strategic Advantages</h2>
+        <div className="mt-8 grid gap-8 md:grid-cols-2 items-start">
+          <div className="grid gap-6 max-w-prose text-muted-foreground">
+            <article>
+              <h3 className="text-xl font-semibold text-foreground">Alternate Maritime Route</h3>
+              <p className="mt-2">Provides a direct Atlantic–Pacific energy corridor, creating schedule certainty and reducing exposure to constrained canals and high-risk sea lanes.</p>
+            </article>
+            <article>
+              <h3 className="text-xl font-semibold text-foreground">Time & Cost Efficiency</h3>
+              <p className="mt-2">Cuts up to 7,000 nautical miles on selected routes and lowers per-barrel transport costs by 25–35%, improving competitiveness of Atlantic basin exporters.</p>
+            </article>
+            <article>
+              <h3 className="text-xl font-semibold text-foreground">Energy Security</h3>
+              <p className="mt-2">Diversifies global routes, mitigating piracy and geopolitical chokepoint risks for more reliable supply chains.</p>
+            </article>
+            <article>
+              <h3 className="text-xl font-semibold text-foreground">Operational Flexibility</h3>
+              <p className="mt-2">Bidirectional flow and terminal blending support dynamic market conditions, seasonal swings, and product mix changes.</p>
+            </article>
+            <article>
+              <h3 className="text-xl font-semibold text-foreground">Commercial Impact</h3>
+              <p className="mt-2">Helps level the playing field with Middle East suppliers by compressing transit times and improving arrival windows into Asia-Pacific.</p>
+            </article>
+          </div>
+          <figure className="border p-2 bg-card">
+            <img
+              src="/lovable-uploads/4111b08d-449e-4ac8-aa4f-2a7961390cea.png"
+              alt="Triple pipeline alignment through forested corridor"
+              loading="lazy"
+              decoding="async"
+              width={1024}
+              height={640}
+              className="w-full h-auto"
+            />
+            <figcaption className="mt-2 text-sm text-muted-foreground">Illustrative multi-line corridor configuration.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      {/* Combined: Economic & Environmental Benefits */}
+      <section className="container mx-auto py-12 md:py-20">
+        <h2 className="text-2xl md:text-3xl font-semibold">Economic & Environmental Benefits</h2>
+        <div className="mt-8 grid gap-8 md:grid-cols-2 items-start">
+          <div className="grid gap-10 max-w-prose text-muted-foreground">
+            <article>
+              <h3 className="text-xl font-semibold text-foreground">Economic Development</h3>
+              <ul className="mt-3 list-disc list-inside space-y-1">
+                <li>Thousands of direct and indirect jobs during construction and operations.</li>
+                <li>Local procurement and skills transfer programs.</li>
+                <li>Attraction of complementary logistics, storage, and services investments.</li>
+              </ul>
+            </article>
+            <article>
+              <h3 className="text-xl font-semibold text-foreground">Environmental Stewardship</h3>
+              <ul className="mt-3 list-disc list-inside space-y-1">
+                <li>Real-time leak detection and continuous monitoring through SCADA.</li>
+                <li>Eco-sensitive construction practices, erosion control, and habitat restoration.</li>
+                <li>Shorter shipping routes projected to reduce CO₂ emissions by ~<strong>52 million tons</strong> over 10 years (routing assumption dependent).</li>
+              </ul>
+            </article>
+            <article>
+              <h3 className="text-xl font-semibold text-foreground">Community & Governance</h3>
+              <ul className="mt-3 list-disc list-inside space-y-1">
+                <li>Stakeholder engagement, grievance mechanisms, and transparent reporting.</li>
+                <li>Compliance with national law and applicable international standards.</li>
+              </ul>
+            </article>
+          </div>
+          <div className="grid gap-6">
+            <figure className="border p-2 bg-card">
+              <img
+                src="/lovable-uploads/758b2115-3460-401c-94c5-d38e83012267.png"
+                alt="Pipeline trenching at sunrise along a prepared right-of-way"
+                loading="lazy"
+                decoding="async"
+                width={1024}
+                height={640}
+                className="w-full h-auto"
+              />
+              <figcaption className="mt-2 text-sm text-muted-foreground">Construction sequence along the corridor (illustrative).</figcaption>
+            </figure>
+            <figure className="border p-2 bg-card">
+              <img
+                src="/lovable-uploads/910fd229-a608-4fc8-bbec-83827c1477c7.png"
+                alt="Aerial mosaic of agricultural plots near the corridor"
+                loading="lazy"
+                decoding="async"
+                width={1024}
+                height={640}
+                className="w-full h-auto"
+              />
+              <figcaption className="mt-2 text-sm text-muted-foreground">Regional land-use mosaic informing community engagement and routing.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
