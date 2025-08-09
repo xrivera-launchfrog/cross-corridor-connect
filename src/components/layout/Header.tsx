@@ -18,7 +18,7 @@ export default function Header() {
           <img
             src="/lovable-uploads/29a8a823-d66c-4171-aa2b-d748ae2bf5f8.png"
             alt="Trans Guatemala Pipeline (TGP) logo"
-            className="h-8 w-auto object-contain"
+            className="h-16 w-auto object-contain"
             decoding="async"
           />
         </Link>
