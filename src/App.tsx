@@ -8,7 +8,7 @@ import Layout from "./components/layout/Layout";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import ProjectOverview from "./pages/ProjectOverview";
-import Partners from "./pages/Partners";
+import About from "./pages/About";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
@@ -31,8 +31,8 @@ const App = () => (
               <Route path="/economic-environmental-benefits" element={<Navigate to="/project-overview" replace />} />
               <Route path="/media" element={<Navigate to="/project-overview" replace />} />
               <Route path="/project-brief" element={<Navigate to="/project-overview" replace />} />
-              <Route path="/partners" element={<Partners />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/partners" element={<Navigate to="/about" replace />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/terms-of-use" element={<TermsOfUse />} />
               <Route path="/legal-disclaimer" element={<LegalDisclaimer />} />
