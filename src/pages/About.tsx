@@ -37,39 +37,47 @@ export default function About() {
         </article>
       </section>
 
-      <section className="container mx-auto py-8 md:py-14">
-        <h2 className="text-2xl font-semibold">Board of Directors</h2>
-        <ul className="mt-4 grid gap-2 text-muted-foreground max-w-3xl list-disc pl-6">
-          <li><strong className="text-foreground">George E. Mesa</strong> — Chairman</li>
-          <li><strong className="text-foreground">Xavier Rivera</strong> — Chief Executive Officer</li>
-          <li><strong className="text-foreground">Thomas J. Dimitroff</strong> — EVP Legal</li>
-          <li><strong className="text-foreground">Dr. Peter S. Watson</strong> — EVP Policy</li>
-          <li><strong className="text-foreground">Timothy J. Bluish</strong></li>
-          <li><strong className="text-foreground">Louis Jimenez</strong></li>
-        </ul>
-      </section>
+      <section className="container mx-auto py-12 md:py-16">
+        <h2 className="text-2xl font-semibold">Leadership & Team</h2>
+        <div className="mt-6 grid gap-8 md:grid-cols-2 items-start">
+          <figure className="rounded-md overflow-hidden ring-1 ring-border">
+            <img
+              src="/lovable-uploads/bd1fc52b-667b-41b8-a8c2-81833a9c26d8.png"
+              alt="TGP leadership and community representatives meeting in Guatemala"
+              loading="lazy"
+              decoding="async"
+              width={768}
+              height={936}
+              className="w-full h-auto"
+            />
+            <figcaption className="sr-only">TGP team and community representatives</figcaption>
+          </figure>
 
-      <section className="container mx-auto py-8 md:py-14">
-        <h2 className="text-2xl font-semibold">Advisory Board</h2>
-        <ul className="mt-4 grid gap-2 text-muted-foreground max-w-3xl list-disc pl-6">
-          <li><strong className="text-foreground">Amb. Hans H. Hertell</strong></li>
-        </ul>
-      </section>
+          <article>
+            <p className="text-muted-foreground max-w-prose">
+              TGP is led by a multidisciplinary leadership team with deep experience in large-scale energy infrastructure, governance, and stakeholder engagement across the Americas.
+            </p>
 
-      <section className="container mx-auto py-8 md:py-14">
-        <h2 className="text-2xl font-semibold">Team</h2>
-        <figure className="mt-4 rounded-md overflow-hidden ring-1 ring-border">
-          <img
-            src="/lovable-uploads/bd1fc52b-667b-41b8-a8c2-81833a9c26d8.png"
-            alt="TGP leadership and community representatives meeting in Guatemala"
-            loading="lazy"
-            decoding="async"
-            width={768}
-            height={936}
-            className="w-full h-auto"
-          />
-          <figcaption className="sr-only">TGP team and community representatives</figcaption>
-        </figure>
+            <div className="mt-6">
+              <h3 className="text-lg font-semibold text-foreground">Board of Directors</h3>
+              <ul className="mt-3 grid gap-2 text-muted-foreground max-w-prose list-disc pl-6">
+                <li><strong className="text-foreground">George E. Mesa</strong> — Chairman</li>
+                <li><strong className="text-foreground">Xavier Rivera</strong> — Chief Executive Officer</li>
+                <li><strong className="text-foreground">Thomas J. Dimitroff</strong> — EVP Legal</li>
+                <li><strong className="text-foreground">Dr. Peter S. Watson</strong> — EVP Policy</li>
+                <li><strong className="text-foreground">Timothy J. Bluish</strong></li>
+                <li><strong className="text-foreground">Louis Jimenez</strong></li>
+              </ul>
+            </div>
+
+            <div className="mt-6">
+              <h3 className="text-lg font-semibold text-foreground">Advisory Board</h3>
+              <ul className="mt-3 grid gap-2 text-muted-foreground max-w-prose list-disc pl-6">
+                <li><strong className="text-foreground">Amb. Hans H. Hertell</strong></li>
+              </ul>
+            </div>
+          </article>
+        </div>
       </section>
 
       <section className="container mx-auto py-8 md:py-14 grid gap-8 md:grid-cols-2 items-start">
