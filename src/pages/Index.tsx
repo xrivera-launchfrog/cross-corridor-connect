@@ -154,9 +154,11 @@ const Index = () => {
         <h2 className="text-2xl md:text-3xl font-semibold font-display">Project Roadmap & Status</h2>
         <div className="mt-8 grid gap-8 md:grid-cols-2">
           <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
-            <div className="flex items-start gap-4">
-              <Globe className="h-10 w-10 md:h-12 md:w-12 text-primary" aria-hidden="true" />
-              <div>
+            <div className="flex items-start gap-5">
+              <div className="flex-none h-12 w-12 md:h-14 md:w-14 rounded-full bg-primary/10 text-primary flex items-center justify-center">
+                <Globe className="h-6 w-6 md:h-7 md:w-7" aria-hidden="true" />
+              </div>
+              <div className="pt-0.5">
                 <h3 className="text-lg font-semibold text-foreground">Global Market Relevance</h3>
                 <p className="mt-3 text-sm text-muted-foreground">Links Atlantic producers to Asia-Pacific demand, improving arrival windows and route flexibility. By bypassing congested chokepoints and shortening voyage distances, TGP provides a competitive, secure supply route that complements existing infrastructure and supports balanced market access.</p>
               </div>
