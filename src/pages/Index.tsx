@@ -55,8 +55,26 @@ const Index = () => {
         </div>
       </section>
 
+
+      <section className="container mx-auto py-16">
+        <h2 className="text-2xl md:text-3xl font-semibold font-display">Why It Matters</h2>
+        <div className="mt-6 grid gap-6 sm:grid-cols-2 md:grid-cols-4">
+          {[
+            ["Speed & Efficiency", "Shorter routes accelerate deliveries and optimize fleet utilization."],
+            ["Safety & Reliability", "Modern engineering, monitoring, and redundancy enhance resilience."],
+            ["ESG Leadership", "Lower emissions, strong environmental standards, and community investment."],
+            ["Economic Impact", "Jobs, local procurement, and broader regional development."],
+          ].map(([title, body]) => (
+            <article key={title as string} className="rounded-md border bg-card p-5">
+              <h3 className="text-lg font-semibold text-foreground">{title}</h3>
+              <p className="mt-2 text-sm text-muted-foreground">{body}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
       <section className="container mx-auto py-16 md:py-24">
-        <h2 className="sr-only">Key Stats</h2>
+        <h2 className="sr-only">At-a-Glance Stats</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-border">
           {[
             ["$8.1B", "CAPEX", "Total project capital expenditure"],
@@ -69,23 +87,6 @@ const Index = () => {
               <div className="mt-1 text-xs uppercase tracking-wide text-muted-foreground">{unit}</div>
               <div className="mt-2 text-sm text-muted-foreground">{description}</div>
             </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="container mx-auto py-16">
-        <h2 className="text-2xl md:text-3xl font-semibold font-display">Strategic Pillars</h2>
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 md:grid-cols-4">
-          {[
-            ["Speed & Efficiency", "Shorter routes accelerate deliveries and optimize fleet utilization."],
-            ["Safety & Reliability", "Modern engineering, monitoring, and redundancy enhance resilience."],
-            ["ESG Leadership", "Lower emissions, strong environmental standards, and community investment."],
-            ["Economic Impact", "Jobs, local procurement, and broader regional development."],
-          ].map(([title, body]) => (
-            <article key={title as string} className="rounded-md border bg-card p-5">
-              <h3 className="text-lg font-semibold text-foreground">{title}</h3>
-              <p className="mt-2 text-sm text-muted-foreground">{body}</p>
-            </article>
           ))}
         </div>
       </section>
@@ -114,19 +115,10 @@ const Index = () => {
         </figure>
       </section>
 
-      <section className="container mx-auto py-16">
-        <h2 className="text-2xl md:text-3xl font-semibold font-display">Strategic Importance</h2>
-        <ul className="mt-4 grid gap-3 list-disc pl-6 text-muted-foreground max-w-4xl">
-          <li><strong className="text-foreground">Enhanced Connectivity</strong> – Links Atlantic basin exporters with Asia-Pacific importers, bypassing traditional bottlenecks and shortening voyage distances.</li>
-          <li><strong className="text-foreground">Time & Cost Efficiency</strong> – Reduces transit times and transportation costs, improving fleet utilization and market responsiveness.</li>
-          <li><strong className="text-foreground">Energy Security</strong> – Diversifies global shipping lanes, reducing reliance on routes vulnerable to geopolitical tension or piracy.</li>
-          <li><strong className="text-foreground">Sustainable Operations</strong> – Shorter routes, fuel‑efficient logistics, and modern environmental safeguards lower emissions.</li>
-        </ul>
-      </section>
 
       <section className="container mx-auto py-16 grid gap-6 md:grid-cols-2 items-start">
         <div>
-          <h2 className="text-2xl md:text-3xl font-semibold font-display">Economic & Environmental Benefits</h2>
+          <h2 className="text-2xl md:text-3xl font-semibold font-display">Impact & Opportunity</h2>
           <p className="text-muted-foreground max-w-3xl">TGP delivers durable advantages for markets and communities:</p>
           <ul className="mt-4 grid gap-2 list-disc pl-6 text-muted-foreground max-w-3xl">
             <li><strong className="text-foreground">Trade Growth</strong> – Strengthens competitiveness by improving access to key markets.</li>
@@ -153,7 +145,7 @@ const Index = () => {
 
 
       <section className="container mx-auto py-16 md:py-24">
-        <h2 className="text-2xl md:text-3xl font-semibold font-display">Project Overview</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold font-display">Project Roadmap & Status</h2>
         <div className="mt-8 grid gap-8 md:grid-cols-2">
           <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
             <div className="flex items-start gap-4">
@@ -199,7 +191,7 @@ const Index = () => {
 
 
       <section className="container mx-auto py-16 md:py-24">
-        <h2 className="text-2xl md:text-3xl font-semibold font-display">Public Contact Information</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold font-display">Investor Access / Contact</h2>
         <div className="mt-6 grid gap-3">
           <a href="mailto:info@tgppipeline.com" className="underline decoration-accent decoration-2 underline-offset-8 text-lg font-medium">General Inquiries: info@tgppipeline.com</a>
           <a href="mailto:media@tgppipeline.com" className="underline decoration-accent/80 decoration-2 underline-offset-8 text-lg font-medium">Media Requests: media@tgppipeline.com</a>
