@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Globe2, Map as MapIcon, CalendarClock, Lightbulb } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 
 const heroImg = "/lovable-uploads/43f1a202-1b9b-4360-94a1-1cccbfc36361.png";
@@ -159,57 +159,58 @@ const Index = () => {
       <section className="container mx-auto py-16 md:py-24">
         <h2 className="text-2xl md:text-3xl font-semibold font-display">Project Overview</h2>
         <div className="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-          <article className="group rounded-md border bg-card p-5 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
-            <div className="flex items-start gap-3">
-              <div className="rounded-md bg-primary/10 p-2 text-primary">
-                <Globe2 className="h-5 w-5" aria-hidden="true" />
-              </div>
+          <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
+            <div className="flex items-start gap-4">
+              <div className="text-3xl font-mono font-bold text-primary leading-none">01</div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground">Global Market Relevance</h3>
-                <p className="mt-1 text-sm text-muted-foreground">Links Atlantic producers to Asia-Pacific demand, improving arrival windows and route flexibility.</p>
-                <div className="mt-3"><Link to="/project-overview" className="underline decoration-accent underline-offset-8">Learn more</Link></div>
+                <p className="mt-2 text-sm text-muted-foreground">Links Atlantic producers to Asia-Pacific demand, improving arrival windows and route flexibility.</p>
+                <div className="mt-3 inline-flex items-center gap-1 text-sm">
+                  <Link to="/project-overview" className="underline decoration-accent underline-offset-8">Learn more</Link>
+                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                </div>
               </div>
             </div>
           </article>
 
-          <article className="group rounded-md border bg-card p-5 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
-            <div className="flex items-start gap-3">
-              <div className="rounded-md bg-primary/10 p-2 text-primary">
-                <MapIcon className="h-5 w-5" aria-hidden="true" />
-              </div>
-              <div className="flex-1">
+          <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
+            <div className="flex items-start gap-4">
+              <div className="text-3xl font-mono font-bold text-primary leading-none">02</div>
+              <div>
                 <h3 className="text-lg font-semibold text-foreground">Map & Timeline</h3>
-                <p className="mt-1 text-sm text-muted-foreground">320 km corridor from Puerto Santo Tomás de Castilla to Puerto San José with phased milestones.</p>
-                <figure className="mt-3 rounded-sm overflow-hidden ring-1 ring-border">
-                  <img src="/lovable-uploads/728f854a-c51d-4ce8-a449-175febf101ce.png" alt="Underwater subsea pipelines across the seabed" loading="lazy" decoding="async" width={512} height={288} className="w-full h-28 object-cover" />
-                </figure>
-                <div className="mt-3"><Link to="/project-overview" className="underline decoration-accent underline-offset-8">View milestones</Link></div>
+                <p className="mt-2 text-sm text-muted-foreground">320 km corridor from Puerto Santo Tomás de Castilla to Puerto San José with phased milestones.</p>
+                <div className="mt-3 inline-flex items-center gap-1 text-sm">
+                  <Link to="/project-overview" className="underline decoration-accent underline-offset-8">View milestones</Link>
+                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                </div>
               </div>
             </div>
           </article>
 
-          <article className="group rounded-md border bg-card p-5 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
-            <div className="flex items-start gap-3">
-              <div className="rounded-md bg-primary/10 p-2 text-primary">
-                <CalendarClock className="h-5 w-5" aria-hidden="true" />
-              </div>
+          <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
+            <div className="flex items-start gap-4">
+              <div className="text-3xl font-mono font-bold text-primary leading-none">03</div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground">Project Status</h3>
-                <p className="mt-1 text-sm text-muted-foreground">Due diligence complete; phased EPC mobilization and permitting advancing.</p>
-                <div className="mt-3"><Link to="/project-overview" className="underline decoration-accent underline-offset-8">See status</Link></div>
+                <p className="mt-2 text-sm text-muted-foreground">Due diligence complete; phased EPC mobilization and permitting advancing.</p>
+                <div className="mt-3 inline-flex items-center gap-1 text-sm">
+                  <Link to="/project-overview" className="underline decoration-accent underline-offset-8">See status</Link>
+                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                </div>
               </div>
             </div>
           </article>
 
-          <article className="group rounded-md border bg-card p-5 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
-            <div className="flex items-start gap-3">
-              <div className="rounded-md bg-primary/10 p-2 text-primary">
-                <Lightbulb className="h-5 w-5" aria-hidden="true" />
-              </div>
+          <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
+            <div className="flex items-start gap-4">
+              <div className="text-3xl font-mono font-bold text-primary leading-none">04</div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground">Why It Matters</h3>
-                <p className="mt-1 text-sm text-muted-foreground">Cuts transit times, enhances energy security, and supports lower‑carbon logistics.</p>
-                <div className="mt-3"><Link to="/project-overview" className="underline decoration-accent underline-offset-8">Discover impact</Link></div>
+                <p className="mt-2 text-sm text-muted-foreground">Cuts transit times, enhances energy security, and supports lower‑carbon logistics.</p>
+                <div className="mt-3 inline-flex items-center gap-1 text-sm">
+                  <Link to="/project-overview" className="underline decoration-accent underline-offset-8">Discover impact</Link>
+                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                </div>
               </div>
             </div>
           </article>
