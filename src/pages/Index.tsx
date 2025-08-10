@@ -13,7 +13,7 @@ const Index = () => {
     contactPoint: [{
       "@type": "ContactPoint",
       contactType: "Investor Relations",
-      email: "investorrelations@tgppipeline.com"
+      email: "info@tgpipe.com"
     }]
   };
 
@@ -207,8 +207,8 @@ const Index = () => {
       <section className="container mx-auto py-16 md:py-24">
         <h2 className="text-2xl md:text-3xl font-semibold font-display">Investor Access / Contact</h2>
         <div className="mt-6 grid gap-3">
-          <a href="mailto:info@tgppipeline.com" className="underline decoration-accent decoration-2 underline-offset-8 text-lg font-medium">General Inquiries: info@tgppipeline.com</a>
-          <a href="mailto:media@tgppipeline.com" className="underline decoration-accent/80 decoration-2 underline-offset-8 text-lg font-medium">Media Requests: media@tgppipeline.com</a>
+          <a href="mailto:info@tgpipe.com" className="underline decoration-accent decoration-2 underline-offset-8 text-lg font-medium">General Inquiries: info@tgpipe.com</a>
+          <a href="mailto:media@tgpipe.com" className="underline decoration-accent/80 decoration-2 underline-offset-8 text-lg font-medium">Media Requests: media@tgpipe.com</a>
         </div>
       </section>
     </>

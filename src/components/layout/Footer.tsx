@@ -30,7 +30,7 @@ export default function Footer() {
 
         <div className="space-y-2 text-sm">
           <div className="text-sm font-semibold">Contact</div>
-          <a href="mailto:investorrelations@tgppipeline.com" className="text-muted-foreground hover:text-foreground">investorrelations@tgppipeline.com</a>
+          <a href="mailto:info@tgpipe.com" className="text-muted-foreground hover:text-foreground">info@tgpipe.com</a>
         </div>
       </div>
       <div className="border-t py-6 text-center text-xs text-muted-foreground">© 2025 Trans-Guatemala Inter-Oceanic Pipeline (TGP). All rights reserved.</div>
