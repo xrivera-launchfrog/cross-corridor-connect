@@ -73,6 +73,25 @@ export default function ProjectOverview() {
           <li><strong>Control & Safety:</strong> Central SCADA with real-time leak detection, pressure/temperature profiling, and geohazard monitoring.</li>
         </ul>
 
+        <section className="mt-10">
+          <h2 className="text-2xl font-semibold">VLCC Terminals & Monobuoys</h2>
+          <figure className="mt-4 bg-card">
+            <div className="relative rounded-md overflow-hidden ring-1 ring-border">
+              <img
+                src="/lovable-uploads/f63a9d71-a950-40e8-9030-6ee4003d130c.png"
+                alt="Offshore VLCC terminal monobuoy system with subsea infrastructure"
+                loading="lazy"
+                decoding="async"
+                width={1280}
+                height={720}
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute inset-0 bg-accent/20 mix-blend-multiply" aria-hidden="true"></div>
+            </div>
+            <figcaption className="mt-2 text-sm text-muted-foreground">Illustrative monobuoy offshore loading system for VLCC compatibility.</figcaption>
+          </figure>
+        </section>
+
         <h2 className="mt-10 text-2xl font-semibold">Program Status</h2>
         <ul className="mt-4 space-y-2 text-muted-foreground max-w-3xl">
           <li>Financial: Senior loan commitment of <strong>$7.52B</strong>.</li>

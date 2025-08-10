@@ -101,8 +101,8 @@ const Index = () => {
         </div>
         <figure className="relative rounded-md overflow-hidden ring-1 ring-border">
           <img
-            src="/lovable-uploads/ecc86140-db0c-403f-afd8-39e0d335afae.png"
-            alt="Subsea pipelines across seabed with blue water"
+            src="/lovable-uploads/f63a9d71-a950-40e8-9030-6ee4003d130c.png"
+            alt="Offshore VLCC monobuoy loading system visualization"
             loading="lazy"
             decoding="async"
             width={1024}
