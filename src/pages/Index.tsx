@@ -1,7 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-
-
+import { Globe, Map, CheckCircle2, TrendingUp } from "lucide-react";
 
 const heroImg = "/lovable-uploads/43f1a202-1b9b-4360-94a1-1cccbfc36361.png";
 
@@ -156,7 +155,7 @@ const Index = () => {
         <div className="mt-8 grid gap-8 md:grid-cols-2">
           <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
             <div className="flex items-start gap-4">
-              <div className="text-3xl font-mono font-bold text-primary leading-none">01</div>
+              <Globe className="h-8 w-8 text-primary" aria-hidden="true" />
               <div>
                 <h3 className="text-lg font-semibold text-foreground">Global Market Relevance</h3>
                 <p className="mt-3 text-sm text-muted-foreground">Links Atlantic producers to Asia-Pacific demand, improving arrival windows and route flexibility. By bypassing congested chokepoints and shortening voyage distances, TGP provides a competitive, secure supply route that complements existing infrastructure and supports balanced market access.</p>
@@ -166,7 +165,7 @@ const Index = () => {
 
           <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
             <div className="flex items-start gap-4">
-              <div className="text-3xl font-mono font-bold text-primary leading-none">02</div>
+              <Map className="h-8 w-8 text-primary" aria-hidden="true" />
               <div>
                 <h3 className="text-lg font-semibold text-foreground">Map & Timeline</h3>
                 <p className="mt-3 text-sm text-muted-foreground">A 320 km corridor from Puerto Santo Tomás de Castilla (Atlantic) to Puerto San José (Pacific), delivered in phased milestones covering detailed engineering, permitting, EPC mobilization, terminal readiness, and commissioning—enabling bidirectional flows and VLCC-compatible offshore loading.</p>
@@ -176,7 +175,7 @@ const Index = () => {
 
           <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
             <div className="flex items-start gap-4">
-              <div className="text-3xl font-mono font-bold text-primary leading-none">03</div>
+              <CheckCircle2 className="h-8 w-8 text-primary" aria-hidden="true" />
               <div>
                 <h3 className="text-lg font-semibold text-foreground">Project Status</h3>
                 <p className="mt-3 text-sm text-muted-foreground">Due diligence is complete; phased EPC mobilization and permitting are advancing, alongside stakeholder engagement and environmental baselines—positioning the project for on-time execution and risk-managed delivery.</p>
@@ -186,7 +185,7 @@ const Index = () => {
 
           <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
             <div className="flex items-start gap-4">
-              <div className="text-3xl font-mono font-bold text-primary leading-none">04</div>
+              <TrendingUp className="h-8 w-8 text-primary" aria-hidden="true" />
               <div>
                 <h3 className="text-lg font-semibold text-foreground">Why It Matters</h3>
                 <p className="mt-3 text-sm text-muted-foreground">Cuts transit times by bypassing bottlenecks, enhances energy security through route diversification, and supports lower-carbon logistics via shorter voyages and modern environmental safeguards.</p>
