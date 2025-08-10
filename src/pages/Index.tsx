@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+
 
 
 const heroImg = "/lovable-uploads/43f1a202-1b9b-4360-94a1-1cccbfc36361.png";
@@ -160,11 +160,7 @@ const Index = () => {
               <div className="text-3xl font-mono font-bold text-primary leading-none">01</div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground">Global Market Relevance</h3>
-                <p className="mt-2 text-sm text-muted-foreground">Links Atlantic producers to Asia-Pacific demand, improving arrival windows and route flexibility.</p>
-                <div className="mt-3 inline-flex items-center gap-1 text-sm">
-                  <Link to="/project-overview" className="underline decoration-accent underline-offset-8">Learn more</Link>
-                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                </div>
+                <p className="mt-3 text-sm text-muted-foreground">Links Atlantic producers to Asia-Pacific demand, improving arrival windows and route flexibility. By bypassing congested chokepoints and shortening voyage distances, TGP provides a competitive, secure supply route that complements existing infrastructure and supports balanced market access.</p>
               </div>
             </div>
           </article>
@@ -174,11 +170,7 @@ const Index = () => {
               <div className="text-3xl font-mono font-bold text-primary leading-none">02</div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground">Map & Timeline</h3>
-                <p className="mt-2 text-sm text-muted-foreground">320 km corridor from Puerto Santo Tomás de Castilla to Puerto San José with phased milestones.</p>
-                <div className="mt-3 inline-flex items-center gap-1 text-sm">
-                  <Link to="/project-overview" className="underline decoration-accent underline-offset-8">View milestones</Link>
-                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                </div>
+                <p className="mt-3 text-sm text-muted-foreground">A 320 km corridor from Puerto Santo Tomás de Castilla (Atlantic) to Puerto San José (Pacific), delivered in phased milestones covering detailed engineering, permitting, EPC mobilization, terminal readiness, and commissioning—enabling bidirectional flows and VLCC-compatible offshore loading.</p>
               </div>
             </div>
           </article>
@@ -188,11 +180,7 @@ const Index = () => {
               <div className="text-3xl font-mono font-bold text-primary leading-none">03</div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground">Project Status</h3>
-                <p className="mt-2 text-sm text-muted-foreground">Due diligence complete; phased EPC mobilization and permitting advancing.</p>
-                <div className="mt-3 inline-flex items-center gap-1 text-sm">
-                  <Link to="/project-overview" className="underline decoration-accent underline-offset-8">See status</Link>
-                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                </div>
+                <p className="mt-3 text-sm text-muted-foreground">Due diligence is complete; phased EPC mobilization and permitting are advancing, alongside stakeholder engagement and environmental baselines—positioning the project for on-time execution and risk-managed delivery.</p>
               </div>
             </div>
           </article>
@@ -202,11 +190,7 @@ const Index = () => {
               <div className="text-3xl font-mono font-bold text-primary leading-none">04</div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground">Why It Matters</h3>
-                <p className="mt-2 text-sm text-muted-foreground">Cuts transit times, enhances energy security, and supports lower‑carbon logistics.</p>
-                <div className="mt-3 inline-flex items-center gap-1 text-sm">
-                  <Link to="/project-overview" className="underline decoration-accent underline-offset-8">Discover impact</Link>
-                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                </div>
+                <p className="mt-3 text-sm text-muted-foreground">Cuts transit times by bypassing bottlenecks, enhances energy security through route diversification, and supports lower-carbon logistics via shorter voyages and modern environmental safeguards.</p>
               </div>
             </div>
           </article>
