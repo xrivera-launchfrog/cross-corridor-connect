@@ -56,6 +56,22 @@ export default function About() {
         </ul>
       </section>
 
+      <section className="container mx-auto py-8 md:py-14">
+        <h2 className="text-2xl font-semibold">Team</h2>
+        <figure className="mt-4 rounded-md overflow-hidden ring-1 ring-border">
+          <img
+            src="/lovable-uploads/bd1fc52b-667b-41b8-a8c2-81833a9c26d8.png"
+            alt="TGP leadership and community representatives meeting in Guatemala"
+            loading="lazy"
+            decoding="async"
+            width={768}
+            height={936}
+            className="w-full h-auto"
+          />
+          <figcaption className="sr-only">TGP team and community representatives</figcaption>
+        </figure>
+      </section>
+
       <section className="container mx-auto py-8 md:py-14 grid gap-8 md:grid-cols-2 items-start">
         <article>
           <h2 className="text-2xl font-semibold">Governance Framework</h2>
