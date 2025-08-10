@@ -16,7 +16,7 @@ export default function Header() {
       <nav className="container mx-auto flex items-center justify-between py-4">
         <Link to="/" className="flex items-center gap-2" aria-label="Trans Guatemala Pipeline Home">
           <img
-            src="/lovable-uploads/29a8a823-d66c-4171-aa2b-d748ae2bf5f8.png"
+            src="/lovable-uploads/f73d76c4-4e0f-46ab-8408-63b29f2303a3.png"
             alt="Trans Guatemala Pipeline (TGP) logo"
             className="h-[5.2rem] w-auto object-contain"
             decoding="async"
