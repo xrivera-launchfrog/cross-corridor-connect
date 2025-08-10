@@ -56,6 +56,24 @@ const Index = () => {
       </section>
 
 
+      <section className="container mx-auto py-16 md:py-24">
+        <h2 className="sr-only">At-a-Glance Stats</h2>
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-border">
+          {[
+            ["$8.1B", "CAPEX", "Total project capital expenditure"],
+            ["4.2M", "bpd throughput", "High-capacity, bidirectional flow"],
+            ["320", "km route length", "Atlantic–Pacific corridor across Guatemala"],
+            ["52M", "tons CO₂ avoided (10 yrs)", "Reduced emissions from shorter voyages"],
+          ].map(([value, unit, description]) => (
+            <div key={unit} className="p-6">
+              <div className="text-4xl md:text-5xl font-bold font-mono text-foreground">{value}</div>
+              <div className="mt-1 text-xs uppercase tracking-wide text-muted-foreground">{unit}</div>
+              <div className="mt-2 text-sm text-muted-foreground">{description}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section className="container mx-auto py-16">
         <h2 className="text-2xl md:text-3xl font-semibold font-display">Why It Matters</h2>
         <div className="mt-8 grid gap-8 md:grid-cols-2">
@@ -76,24 +94,6 @@ const Index = () => {
                 </div>
               </div>
             </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="container mx-auto py-16 md:py-24">
-        <h2 className="sr-only">At-a-Glance Stats</h2>
-        <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-border">
-          {[
-            ["$8.1B", "CAPEX", "Total project capital expenditure"],
-            ["4.2M", "bpd throughput", "High-capacity, bidirectional flow"],
-            ["320", "km route length", "Atlantic–Pacific corridor across Guatemala"],
-            ["52M", "tons CO₂ avoided (10 yrs)", "Reduced emissions from shorter voyages"],
-          ].map(([value, unit, description]) => (
-            <div key={unit} className="p-6">
-              <div className="text-4xl md:text-5xl font-bold font-mono text-foreground">{value}</div>
-              <div className="mt-1 text-xs uppercase tracking-wide text-muted-foreground">{unit}</div>
-              <div className="mt-2 text-sm text-muted-foreground">{description}</div>
-            </div>
           ))}
         </div>
       </section>
