@@ -150,15 +150,11 @@ const Index = () => {
         </figure>
       </section>
 
-      <section className="container mx-auto py-16">
-        <h2 className="text-2xl md:text-3xl font-semibold font-display">Global Market Relevance</h2>
-        <p className="text-muted-foreground max-w-4xl mt-2">Asia-Pacific economies are among the largest consumers of energy in the world, with demand projected to continue growing. TGP’s strategic location and large-scale capacity position it as a competitive and secure supply route, complementing global energy infrastructure and supporting balanced market access.</p>
-      </section>
 
 
       <section className="container mx-auto py-16 md:py-24">
         <h2 className="text-2xl md:text-3xl font-semibold font-display">Project Overview</h2>
-        <div className="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-8 grid gap-8 md:grid-cols-2">
           <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
             <div className="flex items-start gap-4">
               <div className="text-3xl font-mono font-bold text-primary leading-none">01</div>
