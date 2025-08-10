@@ -166,9 +166,11 @@ const Index = () => {
           </article>
 
           <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
-            <div className="flex items-start gap-4">
-              <Map className="h-10 w-10 md:h-12 md:w-12 text-primary" aria-hidden="true" />
-              <div>
+            <div className="flex items-start gap-5">
+              <div className="flex-none h-12 w-12 md:h-14 md:w-14 rounded-full bg-primary/10 text-primary flex items-center justify-center">
+                <Map className="h-6 w-6 md:h-7 md:w-7" aria-hidden="true" />
+              </div>
+              <div className="pt-0.5">
                 <h3 className="text-lg font-semibold text-foreground">Map & Timeline</h3>
                 <p className="mt-3 text-sm text-muted-foreground">A 320 km corridor from Puerto Santo Tomás de Castilla (Atlantic) to Puerto San José (Pacific), delivered in phased milestones covering detailed engineering, permitting, EPC mobilization, terminal readiness, and commissioning—enabling bidirectional flows and VLCC-compatible offshore loading.</p>
               </div>
@@ -176,9 +178,11 @@ const Index = () => {
           </article>
 
           <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
-            <div className="flex items-start gap-4">
-              <CheckCircle2 className="h-10 w-10 md:h-12 md:w-12 text-primary" aria-hidden="true" />
-              <div>
+            <div className="flex items-start gap-5">
+              <div className="flex-none h-12 w-12 md:h-14 md:w-14 rounded-full bg-primary/10 text-primary flex items-center justify-center">
+                <CheckCircle2 className="h-6 w-6 md:h-7 md:w-7" aria-hidden="true" />
+              </div>
+              <div className="pt-0.5">
                 <h3 className="text-lg font-semibold text-foreground">Project Status</h3>
                 <p className="mt-3 text-sm text-muted-foreground">Due diligence is complete; phased EPC mobilization and permitting are advancing, alongside stakeholder engagement and environmental baselines—positioning the project for on-time execution and risk-managed delivery.</p>
               </div>
@@ -186,9 +190,11 @@ const Index = () => {
           </article>
 
           <article className="group rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
-            <div className="flex items-start gap-4">
-              <TrendingUp className="h-10 w-10 md:h-12 md:w-12 text-primary" aria-hidden="true" />
-              <div>
+            <div className="flex items-start gap-5">
+              <div className="flex-none h-12 w-12 md:h-14 md:w-14 rounded-full bg-primary/10 text-primary flex items-center justify-center">
+                <TrendingUp className="h-6 w-6 md:h-7 md:w-7" aria-hidden="true" />
+              </div>
+              <div className="pt-0.5">
                 <h3 className="text-lg font-semibold text-foreground">Why It Matters</h3>
                 <p className="mt-3 text-sm text-muted-foreground">Cuts transit times by bypassing bottlenecks, enhances energy security through route diversification, and supports lower-carbon logistics via shorter voyages and modern environmental safeguards.</p>
               </div>
