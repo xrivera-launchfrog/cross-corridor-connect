@@ -157,7 +157,7 @@ const Index = () => {
 
 
       <section className="container mx-auto py-16 md:py-24">
-        <h2 className="text-2xl md:text-3xl font-semibold font-display">How We Can Help</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold font-display">Project Overview</h2>
         <div className="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           <article className="group rounded-md border bg-card p-5 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
             <div className="flex items-start gap-3">
