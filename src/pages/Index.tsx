@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import ogRouteHero from "@/assets/og-route-hero.jpg";
+
 
 const heroImg = "/lovable-uploads/43f1a202-1b9b-4360-94a1-1cccbfc36361.png";
 
@@ -170,8 +170,8 @@ const Index = () => {
       <section className="container mx-auto py-16 grid gap-8 md:grid-cols-2 items-start">
         <figure className="relative rounded-md overflow-hidden ring-1 ring-border order-2 md:order-1">
           <img
-            src={ogRouteHero}
-            alt="Route map of the Trans Guatemala Pipeline across the Atlantic–Pacific corridor"
+            src="/lovable-uploads/728f854a-c51d-4ce8-a449-175febf101ce.png"
+            alt="Underwater subsea pipelines across the seabed"
             loading="lazy"
             decoding="async"
             width={1280}
