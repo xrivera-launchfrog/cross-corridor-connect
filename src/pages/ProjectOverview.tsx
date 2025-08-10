@@ -111,7 +111,7 @@ export default function ProjectOverview() {
       {/* Combined: Strategic Advantages */}
       <section className="container mx-auto py-12 md:py-20">
         <h2 className="text-2xl md:text-3xl font-semibold">Strategic Advantages</h2>
-        <div className="mt-8 grid gap-8 md:grid-cols-2 items-start">
+        <div className="mt-8">
           <div className="grid gap-6 max-w-prose text-muted-foreground">
             <article>
               <h3 className="text-xl font-semibold text-foreground">Alternate Maritime Route</h3>
@@ -134,21 +134,6 @@ export default function ProjectOverview() {
               <p className="mt-2">Helps level the playing field with Middle East suppliers by compressing transit times and improving arrival windows into Asia-Pacific.</p>
             </article>
           </div>
-           <figure className="bg-card">
-             <div className="relative rounded-md overflow-hidden ring-1 ring-border">
-               <img
-                 src="/lovable-uploads/4111b08d-449e-4ac8-aa4f-2a7961390cea.png"
-                 alt="Triple pipeline alignment through forested corridor"
-                 loading="lazy"
-                 decoding="async"
-                 width={1024}
-                 height={640}
-                 className="w-full h-auto object-cover"
-               />
-               <div className="absolute inset-0 bg-accent/20 mix-blend-multiply" aria-hidden="true"></div>
-             </div>
-             <figcaption className="mt-2 text-sm text-muted-foreground">Illustrative multi-line corridor configuration.</figcaption>
-           </figure>
         </div>
       </section>
 
