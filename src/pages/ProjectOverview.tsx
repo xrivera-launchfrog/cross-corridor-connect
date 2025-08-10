@@ -6,7 +6,7 @@ export default function ProjectOverview() {
     <main>
       <Helmet>
         <title>Project Overview | TGP</title>
-        <meta name="description" content="TGP is a 320 km bidirectional pipeline system with VLCC-compatible terminals and up to 4.2M bpd throughput." />
+        <meta name="description" content="TGP is a bidirectional pipeline system with VLCC-compatible terminals and Barrels per day (Bpd) throughput." />
         <link rel="canonical" href="/project-overview" />
       </Helmet>
 
@@ -22,14 +22,14 @@ export default function ProjectOverview() {
         <div className="absolute inset-0 z-10 bg-primary/80" aria-hidden="true"></div>
         <div className="container mx-auto relative z-20 py-20 md:py-28">
           <h1 className="text-4xl md:text-5xl font-semibold font-display text-primary-foreground">Project Overview</h1>
-          <p className="mt-4 text-primary-foreground/90 max-w-2xl">A 320 km Atlantic–Pacific energy corridor with VLCC-compatible terminals and up to 4.2M bpd throughput.</p>
+          <p className="mt-4 text-primary-foreground/90 max-w-2xl">An Atlantic–Pacific energy corridor with VLCC-compatible terminals and Barrels per day (Bpd) throughput.</p>
         </div>
       </section>
 
       <section className="container mx-auto py-12 md:py-20">
         <h2 className="text-2xl md:text-3xl font-semibold">Overview</h2>
         <p className="mt-6 text-muted-foreground max-w-3xl">
-          The Trans-Guatemala Inter-Oceanic Pipeline (TGP) is a cross-continental energy corridor spanning 320 kilometers, designed for bidirectional transport of crude oil and refined products between Guatemala’s Atlantic and Pacific coasts. Three parallel 42-inch pipelines, advanced pumping stations, and VLCC-compatible monobuoy terminals enable rapid, secure, and scalable throughput of up to 4.2 million barrels per day.
+          The Trans-Guatemala Inter-Oceanic Pipeline (TGP) is a cross-continental energy corridor designed for bidirectional transport of crude oil and refined products between Guatemala’s Atlantic and Pacific coasts. Three parallel 42-inch pipelines, advanced pumping stations, and VLCC-compatible monobuoy terminals enable rapid, secure, and scalable Barrels per day (Bpd) throughput.
         </p>
 
         <div className="mt-10 grid gap-8 md:grid-cols-2 items-start">
