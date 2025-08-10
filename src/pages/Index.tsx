@@ -155,18 +155,6 @@ const Index = () => {
         <p className="text-muted-foreground max-w-4xl mt-2">Asia-Pacific economies are among the largest consumers of energy in the world, with demand projected to continue growing. TGP’s strategic location and large-scale capacity position it as a competitive and secure supply route, complementing global energy infrastructure and supporting balanced market access.</p>
       </section>
 
-      <section className="container mx-auto py-16">
-        <h2 className="text-2xl md:text-3xl font-semibold font-display">Leadership Preview</h2>
-        <p className="text-muted-foreground max-w-3xl mt-2">Guided by experienced leadership and advisors with deep project finance, policy, and infrastructure backgrounds.</p>
-        <ul className="mt-6 grid gap-2 text-muted-foreground max-w-3xl list-disc pl-6">
-          <li><strong className="text-foreground">George E. Mesa</strong> — Chairman</li>
-          <li><strong className="text-foreground">Xavier Rivera</strong> — Chief Executive Officer</li>
-          <li><strong className="text-foreground">Dr. Peter S. Watson</strong> — EVP Policy</li>
-        </ul>
-        <div className="mt-6">
-          <Link to="/about" className="underline decoration-accent decoration-2 underline-offset-8 text-lg font-medium">Meet the Team & Governance</Link>
-        </div>
-      </section>
 
       <section className="container mx-auto py-16 md:py-24">
         <h2 className="text-2xl md:text-3xl font-semibold font-display">How We Can Help</h2>
