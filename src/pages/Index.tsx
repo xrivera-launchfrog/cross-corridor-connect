@@ -58,16 +58,23 @@ const Index = () => {
 
       <section className="container mx-auto py-16">
         <h2 className="text-2xl md:text-3xl font-semibold font-display">Why It Matters</h2>
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 md:grid-cols-4">
-          {[
-            ["Speed & Efficiency", "Shorter routes accelerate deliveries and optimize fleet utilization."],
-            ["Safety & Reliability", "Modern engineering, monitoring, and redundancy enhance resilience."],
-            ["ESG Leadership", "Lower emissions, strong environmental standards, and community investment."],
-            ["Economic Impact", "Jobs, local procurement, and broader regional development."],
-          ].map(([title, body]) => (
-            <article key={title as string} className="rounded-md border bg-card p-5">
-              <h3 className="text-lg font-semibold text-foreground">{title}</h3>
-              <p className="mt-2 text-sm text-muted-foreground">{body}</p>
+        <div className="mt-8 grid gap-8 md:grid-cols-2">
+          {(
+            [
+              ["Speed & Efficiency", "Shorter routes accelerate deliveries and optimize fleet utilization."],
+              ["Safety & Reliability", "Modern engineering, monitoring, and redundancy enhance resilience."],
+              ["ESG Leadership", "Lower emissions, strong environmental standards, and community investment."],
+              ["Economic Impact", "Jobs, local procurement, and broader regional development."],
+            ] as const
+          ).map(([title, body], idx) => (
+            <article key={title as string} className="rounded-md border bg-card p-6 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
+              <div className="flex items-start gap-4">
+                <div className="text-3xl font-mono font-bold text-primary leading-none">{String(idx + 1).padStart(2, "0")}</div>
+                <div>
+                  <h3 className="text-lg font-semibold text-foreground">{title}</h3>
+                  <p className="mt-2 text-sm text-muted-foreground">{body}</p>
+                </div>
+              </div>
             </article>
           ))}
         </div>
