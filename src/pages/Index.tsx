@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
+import { Globe2, Map as MapIcon, CalendarClock, Lightbulb } from "lucide-react";
 
 
 const heroImg = "/lovable-uploads/43f1a202-1b9b-4360-94a1-1cccbfc36361.png";
@@ -167,39 +168,64 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="container mx-auto py-16 grid gap-8 md:grid-cols-2 items-start">
-        <figure className="relative rounded-md overflow-hidden ring-1 ring-border order-2 md:order-1">
-          <img
-            src="/lovable-uploads/728f854a-c51d-4ce8-a449-175febf101ce.png"
-            alt="Underwater subsea pipelines across the seabed"
-            loading="lazy"
-            decoding="async"
-            width={1280}
-            height={720}
-            className="w-full h-auto object-cover"
-          />
-          <div className="absolute inset-0 bg-accent/20 mix-blend-multiply" aria-hidden="true"></div>
-        </figure>
-        <div className="order-1 md:order-2">
-          <h2 className="text-2xl md:text-3xl font-semibold font-display">Map & Timeline</h2>
-          <p className="text-muted-foreground max-w-3xl mt-2">320 km corridor from Puerto Santo Tomás de Castilla to Puerto San José with phased delivery milestones.</p>
-          <ol className="mt-4 list-decimal list-inside space-y-2 text-muted-foreground">
-            <li><strong className="text-foreground">2025:</strong> Financing close</li>
-            <li><strong className="text-foreground">2026:</strong> EPC awards</li>
-            <li><strong className="text-foreground">2027:</strong> Construction completion</li>
-            <li><strong className="text-foreground">2028:</strong> Operations start</li>
-          </ol>
+      <section className="container mx-auto py-16 md:py-24">
+        <h2 className="text-2xl md:text-3xl font-semibold font-display">How We Can Help</h2>
+        <div className="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <article className="group rounded-md border bg-card p-5 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
+            <div className="flex items-start gap-3">
+              <div className="rounded-md bg-primary/10 p-2 text-primary">
+                <Globe2 className="h-5 w-5" aria-hidden="true" />
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground">Global Market Relevance</h3>
+                <p className="mt-1 text-sm text-muted-foreground">Links Atlantic producers to Asia-Pacific demand, improving arrival windows and route flexibility.</p>
+                <div className="mt-3"><Link to="/project-overview" className="underline decoration-accent underline-offset-8">Learn more</Link></div>
+              </div>
+            </div>
+          </article>
+
+          <article className="group rounded-md border bg-card p-5 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
+            <div className="flex items-start gap-3">
+              <div className="rounded-md bg-primary/10 p-2 text-primary">
+                <MapIcon className="h-5 w-5" aria-hidden="true" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-lg font-semibold text-foreground">Map & Timeline</h3>
+                <p className="mt-1 text-sm text-muted-foreground">320 km corridor from Puerto Santo Tomás de Castilla to Puerto San José with phased milestones.</p>
+                <figure className="mt-3 rounded-sm overflow-hidden ring-1 ring-border">
+                  <img src="/lovable-uploads/728f854a-c51d-4ce8-a449-175febf101ce.png" alt="Underwater subsea pipelines across the seabed" loading="lazy" decoding="async" width={512} height={288} className="w-full h-28 object-cover" />
+                </figure>
+                <div className="mt-3"><Link to="/project-overview" className="underline decoration-accent underline-offset-8">View milestones</Link></div>
+              </div>
+            </div>
+          </article>
+
+          <article className="group rounded-md border bg-card p-5 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
+            <div className="flex items-start gap-3">
+              <div className="rounded-md bg-primary/10 p-2 text-primary">
+                <CalendarClock className="h-5 w-5" aria-hidden="true" />
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground">Project Status</h3>
+                <p className="mt-1 text-sm text-muted-foreground">Due diligence complete; phased EPC mobilization and permitting advancing.</p>
+                <div className="mt-3"><Link to="/project-overview" className="underline decoration-accent underline-offset-8">See status</Link></div>
+              </div>
+            </div>
+          </article>
+
+          <article className="group rounded-md border bg-card p-5 transition-all duration-300 hover:shadow-[var(--shadow-elegant)]">
+            <div className="flex items-start gap-3">
+              <div className="rounded-md bg-primary/10 p-2 text-primary">
+                <Lightbulb className="h-5 w-5" aria-hidden="true" />
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-foreground">Why It Matters</h3>
+                <p className="mt-1 text-sm text-muted-foreground">Cuts transit times, enhances energy security, and supports lower‑carbon logistics.</p>
+                <div className="mt-3"><Link to="/project-overview" className="underline decoration-accent underline-offset-8">Discover impact</Link></div>
+              </div>
+            </div>
+          </article>
         </div>
-      </section>
-
-      <section className="container mx-auto py-16">
-        <h2 className="text-2xl md:text-3xl font-semibold font-display">Project Status</h2>
-        <p className="text-muted-foreground max-w-4xl mt-2">The project has undergone comprehensive technical, environmental, and social due diligence. Regulatory engagement and permitting are well advanced, and engineering designs have been completed for all major systems. Construction is scheduled in phased stages, with operational readiness targeted within the decade.</p>
-      </section>
-
-      <section className="container mx-auto py-16">
-        <h2 className="text-2xl md:text-3xl font-semibold font-display">Why It Matters</h2>
-        <p className="text-muted-foreground max-w-4xl mt-2">The Trans-Guatemala Inter-Oceanic Pipeline is a strategic asset for global trade. By reducing transport times, improving supply chain security, and aligning with sustainability goals, TGP will play a critical role in the future of energy logistics between the Americas and Asia-Pacific.</p>
       </section>
 
 
