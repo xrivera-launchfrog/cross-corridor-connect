@@ -44,12 +44,12 @@ export default function ProjectOverview() {
           <figure className="bg-card">
             <div className="relative rounded-md overflow-hidden ring-1 ring-border">
               <img
-                src={figPumping}
-                alt="Subdued engineering view of a pipeline pumping station with industrial piping and valves"
+                src="/lovable-uploads/703f9424-dc64-416b-8d2c-6eada4ee79ff.png"
+                alt="Pipeline pumping station with vertical motor-driven pumps — illustrative equipment"
                 loading="lazy"
                 decoding="async"
                 width={1024}
-                height={640}
+                height={768}
                 className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-primary/20 mix-blend-multiply" aria-hidden="true"></div>
