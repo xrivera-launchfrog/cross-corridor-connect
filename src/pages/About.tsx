@@ -26,112 +26,147 @@ export default function About() {
         </div>
       </section>
 
-      <section className="container mx-auto py-12 md:py-20 max-w-6xl">
-        <div className="space-y-20">
-          {/* Corporate Profile */}
-          <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start">
-            <div className="md:col-span-1">
-              <h2 className="text-3xl md:text-4xl font-semibold">Corporate Profile</h2>
-            </div>
-            <div className="md:col-span-3">
-              <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-                Registered in Panama with offices in Guatemala, Panama, and the United States, TGP is developing a premiere inter‑oceanic energy corridor connecting the Atlantic and Pacific Oceans.
-              </p>
-            </div>
-          </article>
-
-          {/* Mission & Values */}
-          <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start">
-            <div className="md:col-span-1">
-              <h2 className="text-3xl md:text-4xl font-semibold">Mission & Values</h2>
-            </div>
-            <div className="md:col-span-3">
-              <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-                Our mission is to deliver a safer, faster, and more sustainable route for crude oil and refined products — underpinned by Integrity, Excellence, Sustainability, and Partnership.
-              </p>
-            </div>
-          </article>
-          
-          {/* Community Engagement */}
-          <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start">
-            <div className="md:col-span-1">
-              <h2 className="text-3xl md:text-4xl font-semibold">Community Engagement</h2>
-            </div>
-            <div className="md:col-span-3">
-              <div className="space-y-6">
+      <div className="space-y-0">
+        {/* Corporate Profile */}
+        <section className="py-12 md:py-20">
+          <div className="container mx-auto max-w-6xl">
+            <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start">
+              <div className="md:col-span-1">
+                <h2 className="text-3xl md:text-4xl font-semibold">Corporate Profile</h2>
+              </div>
+              <div className="md:col-span-3">
                 <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-                  TGP prioritizes meaningful partnerships with indigenous communities throughout Guatemala. Our commitment extends beyond regulatory compliance to genuine collaboration, cultural respect, and shared prosperity.
-                </p>
-                <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-                  Through transparent communication and inclusive decision-making processes, we work to create lasting positive impacts that honor indigenous heritage while supporting sustainable development goals.
+                  Registered in Panama with offices in Guatemala, Panama, and the United States, TGP is developing a premiere inter‑oceanic energy corridor connecting the Atlantic and Pacific Oceans.
                 </p>
               </div>
-              
-              {/* Community Image */}
-              <figure className="rounded-md overflow-hidden ring-1 ring-border mt-8">
-                <img
-                  src="/lovable-uploads/ecd31ca5-aece-49f7-a409-fb976b8af086.png"
-                  alt="TGP leadership meeting with indigenous community representatives in Guatemala"
-                  loading="lazy"
-                  decoding="async"
-                  width={768}
-                  height={576}
-                  className="w-full h-auto"
-                />
-                <figcaption className="sr-only">TGP team collaborating with indigenous community leaders</figcaption>
-              </figure>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section className="container mx-auto py-12 md:py-16 max-w-4xl">
-        <article className="text-center space-y-8">
-          <h2 className="text-3xl md:text-4xl font-semibold">Leadership & Team</h2>
-          <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-            TGP is led by a multidisciplinary leadership team with deep experience in large-scale energy infrastructure, governance, and stakeholder engagement across the Americas.
-          </p>
-
-          <div className="grid gap-8 md:gap-12 md:grid-cols-2 text-left max-w-3xl mx-auto">
-            <div>
-              <h3 className="text-xl font-semibold text-foreground mb-4">Board of Directors</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li><strong className="text-foreground">George E. Mesa</strong> — Chairman</li>
-                <li><strong className="text-foreground">Xavier Rivera</strong> — Chief Executive Officer</li>
-                <li><strong className="text-foreground">Thomas J. Dimitroff</strong> — EVP Legal</li>
-                <li><strong className="text-foreground">Dr. Peter S. Watson</strong> — EVP Policy</li>
-                <li><strong className="text-foreground">Timothy J. Bluish</strong></li>
-                <li><strong className="text-foreground">Louis Jimenez</strong></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-xl font-semibold text-foreground mb-4">Advisory Board</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li><strong className="text-foreground">Amb. Hans H. Hertell</strong></li>
-              </ul>
-            </div>
+            </article>
           </div>
-        </article>
-      </section>
+        </section>
 
-      <section className="container mx-auto py-12 md:py-16 max-w-4xl">
-        <div className="space-y-12">
-          <article className="text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Governance Framework</h2>
-            <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-              TGP maintains board, audit, ESG committees, and procurement oversight to uphold transparency and accountability across the project lifecycle.
-            </p>
-          </article>
-          
-          <article className="text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Corporate Ethics</h2>
-            <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-              We adhere to strict anti‑bribery and anti‑corruption policies and a comprehensive code of conduct aligned with international standards.
-            </p>
-          </article>
-        </div>
-      </section>
+        {/* Mission & Values */}
+        <section className="py-12 md:py-20 bg-muted/30">
+          <div className="container mx-auto max-w-6xl">
+            <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start">
+              <div className="md:col-span-1">
+                <h2 className="text-3xl md:text-4xl font-semibold">Mission & Values</h2>
+              </div>
+              <div className="md:col-span-3">
+                <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
+                  Our mission is to deliver a safer, faster, and more sustainable route for crude oil and refined products — underpinned by Integrity, Excellence, Sustainability, and Partnership.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        
+        {/* Community Engagement */}
+        <section className="py-12 md:py-20">
+          <div className="container mx-auto max-w-6xl">
+            <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start">
+              <div className="md:col-span-1">
+                <h2 className="text-3xl md:text-4xl font-semibold">Community Engagement</h2>
+              </div>
+              <div className="md:col-span-3">
+                <div className="space-y-6">
+                  <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
+                    TGP prioritizes meaningful partnerships with indigenous communities throughout Guatemala. Our commitment extends beyond regulatory compliance to genuine collaboration, cultural respect, and shared prosperity.
+                  </p>
+                  <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
+                    Through transparent communication and inclusive decision-making processes, we work to create lasting positive impacts that honor indigenous heritage while supporting sustainable development goals.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        {/* Community Image Block */}
+        <section className="py-12 md:py-16 bg-muted/30">
+          <div className="container mx-auto max-w-4xl">
+            <figure className="rounded-lg overflow-hidden ring-1 ring-border">
+              <img
+                src="/lovable-uploads/ecd31ca5-aece-49f7-a409-fb976b8af086.png"
+                alt="TGP leadership meeting with indigenous community representatives in Guatemala"
+                loading="lazy"
+                decoding="async"
+                width={768}
+                height={576}
+                className="w-full h-auto"
+              />
+              <figcaption className="sr-only">TGP team collaborating with indigenous community leaders</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        {/* Leadership & Team */}
+        <section className="py-12 md:py-20">
+          <div className="container mx-auto max-w-6xl">
+            <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start mb-12">
+              <div className="md:col-span-1">
+                <h2 className="text-3xl md:text-4xl font-semibold">Leadership & Team</h2>
+              </div>
+              <div className="md:col-span-3">
+                <p className="text-muted-foreground text-lg md:text-xl leading-relaxed mb-8">
+                  TGP is led by a multidisciplinary leadership team with deep experience in large-scale energy infrastructure, governance, and stakeholder engagement across the Americas.
+                </p>
+
+                <div className="grid gap-8 md:gap-12 md:grid-cols-2">
+                  <div>
+                    <h3 className="text-xl font-semibold text-foreground mb-4">Board of Directors</h3>
+                    <ul className="space-y-2 text-muted-foreground">
+                      <li><strong className="text-foreground">George E. Mesa</strong> — Chairman</li>
+                      <li><strong className="text-foreground">Xavier Rivera</strong> — Chief Executive Officer</li>
+                      <li><strong className="text-foreground">Thomas J. Dimitroff</strong> — EVP Legal</li>
+                      <li><strong className="text-foreground">Dr. Peter S. Watson</strong> — EVP Policy</li>
+                      <li><strong className="text-foreground">Timothy J. Bluish</strong></li>
+                      <li><strong className="text-foreground">Louis Jimenez</strong></li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h3 className="text-xl font-semibold text-foreground mb-4">Advisory Board</h3>
+                    <ul className="space-y-2 text-muted-foreground">
+                      <li><strong className="text-foreground">Amb. Hans H. Hertell</strong></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        {/* Governance Framework */}
+        <section className="py-12 md:py-20 bg-muted/30">
+          <div className="container mx-auto max-w-6xl">
+            <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start">
+              <div className="md:col-span-1">
+                <h2 className="text-3xl md:text-4xl font-semibold">Governance Framework</h2>
+              </div>
+              <div className="md:col-span-3">
+                <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
+                  TGP maintains board, audit, ESG committees, and procurement oversight to uphold transparency and accountability across the project lifecycle.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+        
+        {/* Corporate Ethics */}
+        <section className="py-12 md:py-20">
+          <div className="container mx-auto max-w-6xl">
+            <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start">
+              <div className="md:col-span-1">
+                <h2 className="text-3xl md:text-4xl font-semibold">Corporate Ethics</h2>
+              </div>
+              <div className="md:col-span-3">
+                <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
+                  We adhere to strict anti‑bribery and anti‑corruption policies and a comprehensive code of conduct aligned with international standards.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
 
       <section className="container mx-auto py-8 md:py-16">
         <div className="flex flex-wrap gap-4">
