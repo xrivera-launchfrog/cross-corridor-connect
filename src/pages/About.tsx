@@ -26,15 +26,41 @@ export default function About() {
         </div>
       </section>
 
-      <section className="container mx-auto py-12 md:py-20 grid gap-10 md:grid-cols-2 items-start">
-        <article>
-          <h2 className="text-2xl font-semibold">Corporate Profile</h2>
-          <p className="mt-3 text-muted-foreground max-w-prose">Registered in Panama with offices in Guatemala, Panama, and the United States, TGP is developing a premiere inter‑oceanic energy corridor connecting the Atlantic and Pacific Oceans.</p>
-        </article>
-        <article>
-          <h2 className="text-2xl font-semibold">Mission & Values</h2>
-          <p className="mt-3 text-muted-foreground max-w-prose">Our mission is to deliver a safer, faster, and more sustainable route for crude oil and refined products — underpinned by Integrity, Excellence, Sustainability, and Partnership.</p>
-        </article>
+      <section className="container mx-auto py-12 md:py-20">
+        <div className="grid gap-10 md:grid-cols-2 items-start mb-16">
+          <article>
+            <h2 className="text-2xl font-semibold">Corporate Profile</h2>
+            <p className="mt-3 text-muted-foreground max-w-prose">Registered in Panama with offices in Guatemala, Panama, and the United States, TGP is developing a premiere inter‑oceanic energy corridor connecting the Atlantic and Pacific Oceans.</p>
+          </article>
+          <article>
+            <h2 className="text-2xl font-semibold">Mission & Values</h2>
+            <p className="mt-3 text-muted-foreground max-w-prose">Our mission is to deliver a safer, faster, and more sustainable route for crude oil and refined products — underpinned by Integrity, Excellence, Sustainability, and Partnership.</p>
+          </article>
+        </div>
+
+        <div className="grid gap-8 md:grid-cols-2 items-center">
+          <article>
+            <h2 className="text-2xl font-semibold">Community Engagement</h2>
+            <p className="mt-3 text-muted-foreground max-w-prose">
+              TGP prioritizes meaningful partnerships with indigenous communities throughout Guatemala. Our commitment extends beyond regulatory compliance to genuine collaboration, cultural respect, and shared prosperity. We engage in ongoing dialogue with community leaders to ensure the project benefits align with local priorities and traditional values.
+            </p>
+            <p className="mt-3 text-muted-foreground max-w-prose">
+              Through transparent communication and inclusive decision-making processes, we work to create lasting positive impacts that honor indigenous heritage while supporting sustainable development goals.
+            </p>
+          </article>
+          <figure className="rounded-md overflow-hidden ring-1 ring-border">
+            <img
+              src="/lovable-uploads/ecd31ca5-aece-49f7-a409-fb976b8af086.png"
+              alt="TGP leadership meeting with indigenous community representatives in Guatemala"
+              loading="lazy"
+              decoding="async"
+              width={768}
+              height={576}
+              className="w-full h-auto"
+            />
+            <figcaption className="sr-only">TGP team collaborating with indigenous community leaders</figcaption>
+          </figure>
+        </div>
       </section>
 
       <section className="container mx-auto py-12 md:py-16">
