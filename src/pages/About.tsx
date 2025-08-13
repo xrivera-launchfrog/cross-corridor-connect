@@ -44,7 +44,7 @@ export default function About() {
         </section>
 
         {/* Mission & Values */}
-        <section className="py-12 md:py-20 bg-muted/50">
+        <section className="py-12 md:py-20 bg-secondary/10">
           <div className="container mx-auto max-w-6xl">
             <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start">
               <div className="md:col-span-1">
@@ -136,7 +136,7 @@ export default function About() {
         </section>
 
         {/* Governance Framework */}
-        <section className="py-12 md:py-20 bg-muted/50">
+        <section className="py-12 md:py-20 bg-secondary/10">
           <div className="container mx-auto max-w-6xl">
             <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start">
               <div className="md:col-span-1">
