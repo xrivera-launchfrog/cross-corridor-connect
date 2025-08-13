@@ -26,49 +26,61 @@ export default function About() {
         </div>
       </section>
 
-      <section className="container mx-auto py-12 md:py-20 max-w-4xl">
-        <div className="space-y-16">
+      <section className="container mx-auto py-12 md:py-20 max-w-6xl">
+        <div className="space-y-20">
           {/* Corporate Profile */}
-          <article className="text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Corporate Profile</h2>
-            <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-              Registered in Panama with offices in Guatemala, Panama, and the United States, TGP is developing a premiere inter‑oceanic energy corridor connecting the Atlantic and Pacific Oceans.
-            </p>
+          <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start">
+            <div className="md:col-span-1">
+              <h2 className="text-3xl md:text-4xl font-semibold">Corporate Profile</h2>
+            </div>
+            <div className="md:col-span-3">
+              <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
+                Registered in Panama with offices in Guatemala, Panama, and the United States, TGP is developing a premiere inter‑oceanic energy corridor connecting the Atlantic and Pacific Oceans.
+              </p>
+            </div>
           </article>
 
           {/* Mission & Values */}
-          <article className="text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Mission & Values</h2>
-            <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-              Our mission is to deliver a safer, faster, and more sustainable route for crude oil and refined products — underpinned by Integrity, Excellence, Sustainability, and Partnership.
-            </p>
+          <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start">
+            <div className="md:col-span-1">
+              <h2 className="text-3xl md:text-4xl font-semibold">Mission & Values</h2>
+            </div>
+            <div className="md:col-span-3">
+              <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
+                Our mission is to deliver a safer, faster, and more sustainable route for crude oil and refined products — underpinned by Integrity, Excellence, Sustainability, and Partnership.
+              </p>
+            </div>
           </article>
           
           {/* Community Engagement */}
-          <article className="text-center">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Community Engagement</h2>
-            <div className="space-y-6">
-              <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-                TGP prioritizes meaningful partnerships with indigenous communities throughout Guatemala. Our commitment extends beyond regulatory compliance to genuine collaboration, cultural respect, and shared prosperity.
-              </p>
-              <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-                Through transparent communication and inclusive decision-making processes, we work to create lasting positive impacts that honor indigenous heritage while supporting sustainable development goals.
-              </p>
+          <article className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 items-start">
+            <div className="md:col-span-1">
+              <h2 className="text-3xl md:text-4xl font-semibold">Community Engagement</h2>
             </div>
-            
-            {/* Community Image */}
-            <figure className="rounded-md overflow-hidden ring-1 ring-border mt-8 max-w-3xl mx-auto">
-              <img
-                src="/lovable-uploads/ecd31ca5-aece-49f7-a409-fb976b8af086.png"
-                alt="TGP leadership meeting with indigenous community representatives in Guatemala"
-                loading="lazy"
-                decoding="async"
-                width={768}
-                height={576}
-                className="w-full h-auto"
-              />
-              <figcaption className="sr-only">TGP team collaborating with indigenous community leaders</figcaption>
-            </figure>
+            <div className="md:col-span-3">
+              <div className="space-y-6">
+                <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
+                  TGP prioritizes meaningful partnerships with indigenous communities throughout Guatemala. Our commitment extends beyond regulatory compliance to genuine collaboration, cultural respect, and shared prosperity.
+                </p>
+                <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
+                  Through transparent communication and inclusive decision-making processes, we work to create lasting positive impacts that honor indigenous heritage while supporting sustainable development goals.
+                </p>
+              </div>
+              
+              {/* Community Image */}
+              <figure className="rounded-md overflow-hidden ring-1 ring-border mt-8">
+                <img
+                  src="/lovable-uploads/ecd31ca5-aece-49f7-a409-fb976b8af086.png"
+                  alt="TGP leadership meeting with indigenous community representatives in Guatemala"
+                  loading="lazy"
+                  decoding="async"
+                  width={768}
+                  height={576}
+                  className="w-full h-auto"
+                />
+                <figcaption className="sr-only">TGP team collaborating with indigenous community leaders</figcaption>
+              </figure>
+            </div>
           </article>
         </div>
       </section>
