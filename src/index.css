@@ -39,6 +39,10 @@ All colors MUST be HSL. */
 
     --radius: 0.6rem;
 
+    /* Brand additions (light) */
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--primary) / 0.15);
+    --shadow-glow: 0 0 40px hsl(var(--accent) / 0.2);
+
     /* Sidebar tokens (kept for components that use them) */
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
