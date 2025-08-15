@@ -755,9 +755,19 @@ body {
 }
 
 /* Responsive adjustments */
+@media (max-width: 1200px) {
+    .strategic-advantages-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
 @media (max-width: 767px) {
     .container {
         padding: 0 1rem;
+    }
+    
+    .strategic-advantages-grid {
+        grid-template-columns: 1fr !important;
     }
     
     .hero-content {
