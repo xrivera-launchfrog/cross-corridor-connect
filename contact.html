@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | TGP</title>
+    <meta name="description" content="Get in touch with the Trans Guatemala Pipeline team for inquiries, media requests, and investor information.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="canonical" href="/contact">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="/" class="logo-link" aria-label="Trans Guatemala Pipeline Home">
+                <img src="/lovable-uploads/719a63f6-dd54-41e3-a07a-7d3d830a4342.png" alt="Trans Guatemala Pipeline (TGP) logo" class="logo">
+            </a>
+            
+            <div class="nav-desktop">
+                <a href="project-overview.html" class="nav-link">Project Overview</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            
+            <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="menu-icon">
+                    <path fill-rule="evenodd" d="M3.75 6.75a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75zm0 5.25a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75zm0 5.25a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                </svg>
+            </button>
+        </nav>
+        
+        <div class="nav-mobile" id="mobileNav">
+            <a href="project-overview.html" class="nav-link-mobile">Project Overview</a>
+            <a href="about.html" class="nav-link-mobile">About</a>
+            <a href="contact.html" class="nav-link-mobile">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: url('/lovable-uploads/758b2115-3460-401c-94c5-d38e83012267.png'); background-size: cover; background-position: center; position: relative;">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Contact Us</h1>
+                    <p class="hero-description">
+                        Connect with our team for project inquiries, media requests, and investor information.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section style="max-width: var(--container-max-width); margin: 0 auto; padding: 4rem 2rem;">
+            <div style="display: grid; gap: 3rem; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                <div style="background: var(--card); padding: 2rem; border-radius: var(--border-radius); border: 1px solid var(--border);">
+                    <h2 style="color: var(--primary); font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem;">General Inquiries</h2>
+                    <p style="color: var(--muted-foreground); margin-bottom: 1.5rem;">
+                        For general questions about the Trans Guatemala Pipeline project, technical specifications, or partnership opportunities.
+                    </p>
+                    <a href="mailto:info@tgpipe.com" style="color: var(--primary); text-decoration: underline; font-weight: 500; font-size: 1.125rem;">
+                        info@tgpipe.com
+                    </a>
+                </div>
+
+                <div style="background: var(--card); padding: 2rem; border-radius: var(--border-radius); border: 1px solid var(--border);">
+                    <h2 style="color: var(--primary); font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem;">Media Relations</h2>
+                    <p style="color: var(--muted-foreground); margin-bottom: 1.5rem;">
+                        For media inquiries, press releases, interview requests, and journalist resources.
+                    </p>
+                    <a href="mailto:media@tgpipe.com" style="color: var(--primary); text-decoration: underline; font-weight: 500; font-size: 1.125rem;">
+                        media@tgpipe.com
+                    </a>
+                </div>
+
+                <div id="investor-access" style="background: var(--card); padding: 2rem; border-radius: var(--border-radius); border: 1px solid var(--border);">
+                    <h2 style="color: var(--primary); font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem;">Investor Relations</h2>
+                    <p style="color: var(--muted-foreground); margin-bottom: 1.5rem;">
+                        For qualified investors seeking detailed project information, financial data, and investment opportunities. NDA required.
+                    </p>
+                    <a href="mailto:investors@tgpipe.com" style="color: var(--primary); text-decoration: underline; font-weight: 500; font-size: 1.125rem;">
+                        investors@tgpipe.com
+                    </a>
+                </div>
+
+                <div style="background: var(--card); padding: 2rem; border-radius: var(--border-radius); border: 1px solid var(--border);">
+                    <h2 style="color: var(--primary); font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem;">Business Development</h2>
+                    <p style="color: var(--muted-foreground); margin-bottom: 1.5rem;">
+                        For potential suppliers, contractors, and strategic partners interested in collaboration opportunities.
+                    </p>
+                    <a href="mailto:business@tgpipe.com" style="color: var(--primary); text-decoration: underline; font-weight: 500; font-size: 1.125rem;">
+                        business@tgpipe.com
+                    </a>
+                </div>
+
+                <div style="background: var(--card); padding: 2rem; border-radius: var(--border-radius); border: 1px solid var(--border);">
+                    <h2 style="color: var(--primary); font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem;">Community Relations</h2>
+                    <p style="color: var(--muted-foreground); margin-bottom: 1.5rem;">
+                        For local communities, stakeholders, and organizations interested in project information and engagement opportunities.
+                    </p>
+                    <a href="mailto:community@tgpipe.com" style="color: var(--primary); text-decoration: underline; font-weight: 500; font-size: 1.125rem;">
+                        community@tgpipe.com
+                    </a>
+                </div>
+
+                <div style="background: var(--card); padding: 2rem; border-radius: var(--border-radius); border: 1px solid var(--border);">
+                    <h2 style="color: var(--primary); font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem;">Technical Inquiries</h2>
+                    <p style="color: var(--muted-foreground); margin-bottom: 1.5rem;">
+                        For technical questions about pipeline specifications, engineering details, and environmental considerations.
+                    </p>
+                    <a href="mailto:technical@tgpipe.com" style="color: var(--primary); text-decoration: underline; font-weight: 500; font-size: 1.125rem;">
+                        technical@tgpipe.com
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section style="background: var(--muted); padding: 4rem 0;">
+            <div style="max-width: var(--container-max-width); margin: 0 auto; padding: 0 2rem;">
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <h2 class="section-title">Project Office</h2>
+                    <p style="color: var(--muted-foreground); margin-top: 1rem;">
+                        Our project management team is committed to responding to all inquiries promptly and professionally.
+                    </p>
+                </div>
+                
+                <div style="display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); text-align: center;">
+                    <div style="background: var(--card); padding: 2rem; border-radius: var(--border-radius); border: 1px solid var(--border);">
+                        <h3 style="color: var(--primary); font-weight: 600; margin-bottom: 0.5rem;">Response Time</h3>
+                        <p style="color: var(--muted-foreground); font-size: 0.875rem;">We aim to respond to all inquiries within 24-48 hours during business days.</p>
+                    </div>
+                    
+                    <div style="background: var(--card); padding: 2rem; border-radius: var(--border-radius); border: 1px solid var(--border);">
+                        <h3 style="color: var(--primary); font-weight: 600; margin-bottom: 0.5rem;">Languages</h3>
+                        <p style="color: var(--muted-foreground); font-size: 0.875rem;">Our team can communicate in English, Spanish, and Portuguese.</p>
+                    </div>
+                    
+                    <div style="background: var(--card); padding: 2rem; border-radius: var(--border-radius); border: 1px solid var(--border);">
+                        <h3 style="color: var(--primary); font-weight: 600; margin-bottom: 0.5rem;">Confidentiality</h3>
+                        <p style="color: var(--muted-foreground); font-size: 0.875rem;">All communications are handled with strict confidentiality and professionalism.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="max-width: var(--container-max-width); margin: 0 auto; padding: 4rem 2rem; text-align: center;">
+            <h2 class="section-title">Stay Connected</h2>
+            <p style="color: var(--muted-foreground); margin: 1rem 0 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Follow our progress and stay updated on the latest developments in the Trans Guatemala Pipeline project.
+            </p>
+            <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+                <a href="project-overview.html" style="display: inline-block; padding: 0.75rem 2rem; background-color: var(--primary); color: var(--primary-foreground); text-decoration: none; border-radius: var(--border-radius); font-weight: 500; transition: opacity 0.3s ease;">
+                    View Project Overview
+                </a>
+                <a href="about.html" style="color: var(--primary); text-decoration: underline; font-weight: 500;">
+                    Learn About Our Team
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-title">Trans Guatemala Pipeline</h3>
+                <p class="footer-text">Transforming global energy logistics through innovative infrastructure solutions.</p>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-subtitle">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="project-overview.html" class="footer-link">Project Overview</a></li>
+                    <li><a href="about.html" class="footer-link">About</a></li>
+                    <li><a href="contact.html" class="footer-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Trans Guatemala Pipeline. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const mobileNav = document.getElementById('mobileNav');
+            mobileNav.classList.toggle('active');
+        }
+
+        document.addEventListener('click', function(event) {
+            const mobileNav = document.getElementById('mobileNav');
+            const menuToggle = document.querySelector('.menu-toggle');
+            
+            if (!menuToggle.contains(event.target) && !mobileNav.contains(event.target)) {
+                mobileNav.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
