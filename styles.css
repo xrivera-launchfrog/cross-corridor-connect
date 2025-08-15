@@ -157,9 +157,9 @@ body {
 .nav-mobile {
     display: none;
     border-top: 1px solid var(--border);
-    padding: 1rem 2rem;
-    max-width: var(--container-max-width);
-    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .nav-mobile.active {
